@@ -1,0 +1,5463 @@
+﻿[
+  {
+    "ReturnParam": 0,
+    "Name": "llAbs",
+    "Parameters": [
+      {
+        "Type": 0,
+        "Name": "val"
+      }
+    ]
+  },
+  {
+    "ReturnParam": 1,
+    "Name": "llAcos",
+    "Parameters": [
+      {
+        "Type": 1,
+        "Name": "val"
+      }
+    ]
+  },
+  {
+    "ReturnParam": 5,
+    "Name": "llAddToLandBanList",
+    "Parameters": [
+      {
+        "Type": 6,
+        "Name": "avatar"
+      },
+      {
+        "Type": 1,
+        "Name": "hours"
+      }
+    ]
+  },
+  {
+    "ReturnParam": 5,
+    "Name": "llAddToLandPassList",
+    "Parameters": [
+      {
+        "Type": 6,
+        "Name": "avatar"
+      },
+      {
+        "Type": 1,
+        "Name": "hours"
+      }
+    ]
+  },
+  {
+    "ReturnParam": 5,
+    "Name": "llAdjustSoundVolume",
+    "Parameters": [
+      {
+        "Type": 1,
+        "Name": "volume"
+      }
+    ]
+  },
+  {
+    "ReturnParam": 0,
+    "Name": "llAgentInExperience",
+    "Parameters": [
+      {
+        "Type": 6,
+        "Name": "agent"
+      }
+    ]
+  },
+  {
+    "ReturnParam": 5,
+    "Name": "llAllowInventoryDrop",
+    "Parameters": [
+      {
+        "Type": 0,
+        "Name": "add"
+      }
+    ]
+  },
+  {
+    "ReturnParam": 1,
+    "Name": "llAngleBetween",
+    "Parameters": [
+      {
+        "Type": 3,
+        "Name": "a"
+      },
+      {
+        "Type": 3,
+        "Name": "b"
+      }
+    ]
+  },
+  {
+    "ReturnParam": 5,
+    "Name": "llApplyImpulse",
+    "Parameters": [
+      {
+        "Type": 2,
+        "Name": "momentum"
+      },
+      {
+        "Type": 0,
+        "Name": "local"
+      }
+    ]
+  },
+  {
+    "ReturnParam": 5,
+    "Name": "llApplyRotationalImpulse",
+    "Parameters": [
+      {
+        "Type": 2,
+        "Name": "force"
+      },
+      {
+        "Type": 0,
+        "Name": "local"
+      }
+    ]
+  },
+  {
+    "ReturnParam": 1,
+    "Name": "llAsin",
+    "Parameters": [
+      {
+        "Type": 1,
+        "Name": "val"
+      }
+    ]
+  },
+  {
+    "ReturnParam": 1,
+    "Name": "llAtan2",
+    "Parameters": [
+      {
+        "Type": 1,
+        "Name": "y"
+      },
+      {
+        "Type": 1,
+        "Name": "x"
+      }
+    ]
+  },
+  {
+    "ReturnParam": 5,
+    "Name": "llAttachToAvatar",
+    "Parameters": [
+      {
+        "Type": 0,
+        "Name": "attach_point"
+      }
+    ]
+  },
+  {
+    "ReturnParam": 5,
+    "Name": "llAttachToAvatarTemp",
+    "Parameters": [
+      {
+        "Type": 0,
+        "Name": "attach_point"
+      }
+    ]
+  },
+  {
+    "ReturnParam": 6,
+    "Name": "llAvatarOnLinkSitTarget",
+    "Parameters": [
+      {
+        "Type": 0,
+        "Name": "link"
+      }
+    ]
+  },
+  {
+    "ReturnParam": 6,
+    "Name": "llAvatarOnSitTarget",
+    "Parameters": [
+      {
+        "Type": 5,
+        "Name": ""
+      }
+    ]
+  },
+  {
+    "ReturnParam": 3,
+    "Name": "llAxes2Rot",
+    "Parameters": [
+      {
+        "Type": 2,
+        "Name": "fwd"
+      },
+      {
+        "Type": 2,
+        "Name": "left"
+      },
+      {
+        "Type": 2,
+        "Name": "up"
+      }
+    ]
+  },
+  {
+    "ReturnParam": 3,
+    "Name": "llAxisAngle2Rot",
+    "Parameters": [
+      {
+        "Type": 2,
+        "Name": "axis"
+      },
+      {
+        "Type": 1,
+        "Name": "angle"
+      }
+    ]
+  },
+  {
+    "ReturnParam": 0,
+    "Name": "llBase64ToInteger",
+    "Parameters": [
+      {
+        "Type": 7,
+        "Name": "str"
+      }
+    ]
+  },
+  {
+    "ReturnParam": 7,
+    "Name": "llBase64ToString",
+    "Parameters": [
+      {
+        "Type": 7,
+        "Name": "str"
+      }
+    ]
+  },
+  {
+    "ReturnParam": 5,
+    "Name": "llBreakAllLinks",
+    "Parameters": [
+      {
+        "Type": 5,
+        "Name": ""
+      }
+    ]
+  },
+  {
+    "ReturnParam": 5,
+    "Name": "llBreakLink",
+    "Parameters": [
+      {
+        "Type": 0,
+        "Name": "link"
+      }
+    ]
+  },
+  {
+    "ReturnParam": 4,
+    "Name": "llCastRay",
+    "Parameters": [
+      {
+        "Type": 2,
+        "Name": "start"
+      },
+      {
+        "Type": 2,
+        "Name": "end"
+      },
+      {
+        "Type": 4,
+        "Name": "options"
+      }
+    ]
+  },
+  {
+    "ReturnParam": 0,
+    "Name": "llCeil",
+    "Parameters": [
+      {
+        "Type": 1,
+        "Name": "val"
+      }
+    ]
+  },
+  {
+    "ReturnParam": 5,
+    "Name": "llClearCameraParams",
+    "Parameters": [
+      {
+        "Type": 5,
+        "Name": ""
+      }
+    ]
+  },
+  {
+    "ReturnParam": 0,
+    "Name": "llClearLinkMedia",
+    "Parameters": [
+      {
+        "Type": 0,
+        "Name": "link"
+      },
+      {
+        "Type": 0,
+        "Name": "face"
+      }
+    ]
+  },
+  {
+    "ReturnParam": 0,
+    "Name": "llClearPrimMedia",
+    "Parameters": [
+      {
+        "Type": 0,
+        "Name": "face"
+      }
+    ]
+  },
+  {
+    "ReturnParam": 5,
+    "Name": "llCloseRemoteDataChannel",
+    "Parameters": [
+      {
+        "Type": 6,
+        "Name": "channel"
+      }
+    ]
+  },
+  {
+    "ReturnParam": 1,
+    "Name": "llCloud",
+    "Parameters": [
+      {
+        "Type": 2,
+        "Name": "offset"
+      }
+    ]
+  },
+  {
+    "ReturnParam": 5,
+    "Name": "llCollisionFilter",
+    "Parameters": [
+      {
+        "Type": 7,
+        "Name": "name"
+      },
+      {
+        "Type": 6,
+        "Name": "id"
+      },
+      {
+        "Type": 0,
+        "Name": "accept"
+      }
+    ]
+  },
+  {
+    "ReturnParam": 5,
+    "Name": "llCollisionSound",
+    "Parameters": [
+      {
+        "Type": 7,
+        "Name": "impact_sound"
+      },
+      {
+        "Type": 1,
+        "Name": "impact_volume"
+      }
+    ]
+  },
+  {
+    "ReturnParam": 5,
+    "Name": "llCollisionSprite",
+    "Parameters": [
+      {
+        "Type": 7,
+        "Name": "impact_sprite"
+      }
+    ]
+  },
+  {
+    "ReturnParam": 1,
+    "Name": "llCos",
+    "Parameters": [
+      {
+        "Type": 1,
+        "Name": "theta"
+      }
+    ]
+  },
+  {
+    "ReturnParam": 5,
+    "Name": "llCreateCharacter",
+    "Parameters": [
+      {
+        "Type": 4,
+        "Name": "options"
+      }
+    ]
+  },
+  {
+    "ReturnParam": 6,
+    "Name": "llCreateKeyValue",
+    "Parameters": [
+      {
+        "Type": 7,
+        "Name": "k"
+      },
+      {
+        "Type": 7,
+        "Name": "v"
+      }
+    ]
+  },
+  {
+    "ReturnParam": 5,
+    "Name": "llCreateLink",
+    "Parameters": [
+      {
+        "Type": 6,
+        "Name": "target"
+      },
+      {
+        "Type": 0,
+        "Name": "parent"
+      }
+    ]
+  },
+  {
+    "ReturnParam": 4,
+    "Name": "llCSV2List",
+    "Parameters": [
+      {
+        "Type": 7,
+        "Name": "src"
+      }
+    ]
+  },
+  {
+    "ReturnParam": 6,
+    "Name": "llDataSizeKeyValue",
+    "Parameters": [
+      {
+        "Type": 5,
+        "Name": ""
+      }
+    ]
+  },
+  {
+    "ReturnParam": 5,
+    "Name": "llDeleteCharacter",
+    "Parameters": [
+      {
+        "Type": 5,
+        "Name": ""
+      }
+    ]
+  },
+  {
+    "ReturnParam": 6,
+    "Name": "llDeleteKeyValue",
+    "Parameters": [
+      {
+        "Type": 7,
+        "Name": "k"
+      }
+    ]
+  },
+  {
+    "ReturnParam": 4,
+    "Name": "llDeleteSubList",
+    "Parameters": [
+      {
+        "Type": 4,
+        "Name": "src"
+      },
+      {
+        "Type": 0,
+        "Name": "start"
+      },
+      {
+        "Type": 0,
+        "Name": "end"
+      }
+    ]
+  },
+  {
+    "ReturnParam": 7,
+    "Name": "llDeleteSubString",
+    "Parameters": [
+      {
+        "Type": 7,
+        "Name": "src"
+      },
+      {
+        "Type": 0,
+        "Name": "start"
+      },
+      {
+        "Type": 0,
+        "Name": "end"
+      }
+    ]
+  },
+  {
+    "ReturnParam": 5,
+    "Name": "llDetachFromAvatar",
+    "Parameters": [
+      {
+        "Type": 5,
+        "Name": ""
+      }
+    ]
+  },
+  {
+    "ReturnParam": 2,
+    "Name": "llDetectedGrab",
+    "Parameters": [
+      {
+        "Type": 0,
+        "Name": "number"
+      }
+    ]
+  },
+  {
+    "ReturnParam": 0,
+    "Name": "llDetectedGroup",
+    "Parameters": [
+      {
+        "Type": 0,
+        "Name": "number"
+      }
+    ]
+  },
+  {
+    "ReturnParam": 6,
+    "Name": "llDetectedKey",
+    "Parameters": [
+      {
+        "Type": 0,
+        "Name": "number"
+      }
+    ]
+  },
+  {
+    "ReturnParam": 0,
+    "Name": "llDetectedLinkNumber",
+    "Parameters": [
+      {
+        "Type": 0,
+        "Name": "number"
+      }
+    ]
+  },
+  {
+    "ReturnParam": 7,
+    "Name": "llDetectedName",
+    "Parameters": [
+      {
+        "Type": 0,
+        "Name": "item"
+      }
+    ]
+  },
+  {
+    "ReturnParam": 6,
+    "Name": "llDetectedOwner",
+    "Parameters": [
+      {
+        "Type": 0,
+        "Name": "number"
+      }
+    ]
+  },
+  {
+    "ReturnParam": 2,
+    "Name": "llDetectedPos",
+    "Parameters": [
+      {
+        "Type": 0,
+        "Name": "number"
+      }
+    ]
+  },
+  {
+    "ReturnParam": 3,
+    "Name": "llDetectedRot",
+    "Parameters": [
+      {
+        "Type": 0,
+        "Name": "number"
+      }
+    ]
+  },
+  {
+    "ReturnParam": 2,
+    "Name": "llDetectedTouchBinormal",
+    "Parameters": [
+      {
+        "Type": 0,
+        "Name": "index"
+      }
+    ]
+  },
+  {
+    "ReturnParam": 0,
+    "Name": "llDetectedTouchFace",
+    "Parameters": [
+      {
+        "Type": 0,
+        "Name": "index"
+      }
+    ]
+  },
+  {
+    "ReturnParam": 2,
+    "Name": "llDetectedTouchNormal",
+    "Parameters": [
+      {
+        "Type": 0,
+        "Name": "index"
+      }
+    ]
+  },
+  {
+    "ReturnParam": 2,
+    "Name": "llDetectedTouchPos",
+    "Parameters": [
+      {
+        "Type": 0,
+        "Name": "index"
+      }
+    ]
+  },
+  {
+    "ReturnParam": 2,
+    "Name": "llDetectedTouchST",
+    "Parameters": [
+      {
+        "Type": 0,
+        "Name": "index"
+      }
+    ]
+  },
+  {
+    "ReturnParam": 2,
+    "Name": "llDetectedTouchUV",
+    "Parameters": [
+      {
+        "Type": 0,
+        "Name": "index"
+      }
+    ]
+  },
+  {
+    "ReturnParam": 0,
+    "Name": "llDetectedType",
+    "Parameters": [
+      {
+        "Type": 0,
+        "Name": "number"
+      }
+    ]
+  },
+  {
+    "ReturnParam": 2,
+    "Name": "llDetectedVel",
+    "Parameters": [
+      {
+        "Type": 0,
+        "Name": "number"
+      }
+    ]
+  },
+  {
+    "ReturnParam": 5,
+    "Name": "llDialog",
+    "Parameters": [
+      {
+        "Type": 6,
+        "Name": "avatar"
+      },
+      {
+        "Type": 7,
+        "Name": "message"
+      },
+      {
+        "Type": 4,
+        "Name": "buttons"
+      },
+      {
+        "Type": 0,
+        "Name": "channel"
+      }
+    ]
+  },
+  {
+    "ReturnParam": 5,
+    "Name": "llDie",
+    "Parameters": [
+      {
+        "Type": 5,
+        "Name": ""
+      }
+    ]
+  },
+  {
+    "ReturnParam": 7,
+    "Name": "llDumpList2String",
+    "Parameters": [
+      {
+        "Type": 4,
+        "Name": "src"
+      },
+      {
+        "Type": 7,
+        "Name": "separator"
+      }
+    ]
+  },
+  {
+    "ReturnParam": 0,
+    "Name": "llEdgeOfWorld",
+    "Parameters": [
+      {
+        "Type": 2,
+        "Name": "pos"
+      },
+      {
+        "Type": 2,
+        "Name": "dir"
+      }
+    ]
+  },
+  {
+    "ReturnParam": 5,
+    "Name": "llEjectFromLand",
+    "Parameters": [
+      {
+        "Type": 6,
+        "Name": "avatar"
+      }
+    ]
+  },
+  {
+    "ReturnParam": 5,
+    "Name": "llEmail",
+    "Parameters": [
+      {
+        "Type": 7,
+        "Name": "address"
+      },
+      {
+        "Type": 7,
+        "Name": "subject"
+      },
+      {
+        "Type": 7,
+        "Name": "message"
+      }
+    ]
+  },
+  {
+    "ReturnParam": 7,
+    "Name": "llEscapeURL",
+    "Parameters": [
+      {
+        "Type": 7,
+        "Name": "url"
+      }
+    ]
+  },
+  {
+    "ReturnParam": 3,
+    "Name": "llEuler2Rot",
+    "Parameters": [
+      {
+        "Type": 2,
+        "Name": "v"
+      }
+    ]
+  },
+  {
+    "ReturnParam": 5,
+    "Name": "llEvade",
+    "Parameters": [
+      {
+        "Type": 6,
+        "Name": "target"
+      },
+      {
+        "Type": 4,
+        "Name": "options"
+      }
+    ]
+  },
+  {
+    "ReturnParam": 5,
+    "Name": "llExecCharacterCmd",
+    "Parameters": [
+      {
+        "Type": 0,
+        "Name": "command"
+      },
+      {
+        "Type": 4,
+        "Name": "options"
+      }
+    ]
+  },
+  {
+    "ReturnParam": 1,
+    "Name": "llFabs",
+    "Parameters": [
+      {
+        "Type": 1,
+        "Name": "val"
+      }
+    ]
+  },
+  {
+    "ReturnParam": 5,
+    "Name": "llFleeFrom",
+    "Parameters": [
+      {
+        "Type": 2,
+        "Name": "position"
+      },
+      {
+        "Type": 1,
+        "Name": "distance"
+      },
+      {
+        "Type": 4,
+        "Name": "options"
+      }
+    ]
+  },
+  {
+    "ReturnParam": 0,
+    "Name": "llFloor",
+    "Parameters": [
+      {
+        "Type": 1,
+        "Name": "val"
+      }
+    ]
+  },
+  {
+    "ReturnParam": 5,
+    "Name": "llForceMouselook",
+    "Parameters": [
+      {
+        "Type": 0,
+        "Name": "mouselook"
+      }
+    ]
+  },
+  {
+    "ReturnParam": 1,
+    "Name": "llFrand",
+    "Parameters": [
+      {
+        "Type": 1,
+        "Name": "mag"
+      }
+    ]
+  },
+  {
+    "ReturnParam": 6,
+    "Name": "llGenerateKey",
+    "Parameters": [
+      {
+        "Type": 5,
+        "Name": ""
+      }
+    ]
+  },
+  {
+    "ReturnParam": 2,
+    "Name": "llGetAccel",
+    "Parameters": [
+      {
+        "Type": 5,
+        "Name": ""
+      }
+    ]
+  },
+  {
+    "ReturnParam": 0,
+    "Name": "llGetAgentInfo",
+    "Parameters": [
+      {
+        "Type": 6,
+        "Name": "id"
+      }
+    ]
+  },
+  {
+    "ReturnParam": 7,
+    "Name": "llGetAgentLanguage",
+    "Parameters": [
+      {
+        "Type": 6,
+        "Name": "avatar"
+      }
+    ]
+  },
+  {
+    "ReturnParam": 4,
+    "Name": "llGetAgentList",
+    "Parameters": [
+      {
+        "Type": 0,
+        "Name": "scope"
+      },
+      {
+        "Type": 4,
+        "Name": "options"
+      }
+    ]
+  },
+  {
+    "ReturnParam": 2,
+    "Name": "llGetAgentSize",
+    "Parameters": [
+      {
+        "Type": 6,
+        "Name": "avatar"
+      }
+    ]
+  },
+  {
+    "ReturnParam": 1,
+    "Name": "llGetAlpha",
+    "Parameters": [
+      {
+        "Type": 0,
+        "Name": "face"
+      }
+    ]
+  },
+  {
+    "ReturnParam": 1,
+    "Name": "llGetAndResetTime",
+    "Parameters": [
+      {
+        "Type": 5,
+        "Name": ""
+      }
+    ]
+  },
+  {
+    "ReturnParam": 7,
+    "Name": "llGetAnimation",
+    "Parameters": [
+      {
+        "Type": 6,
+        "Name": "id"
+      }
+    ]
+  },
+  {
+    "ReturnParam": 4,
+    "Name": "llGetAnimationList",
+    "Parameters": [
+      {
+        "Type": 6,
+        "Name": "avatar"
+      }
+    ]
+  },
+  {
+    "ReturnParam": 7,
+    "Name": "llGetAnimationOverride",
+    "Parameters": [
+      {
+        "Type": 7,
+        "Name": "anim_state"
+      }
+    ]
+  },
+  {
+    "ReturnParam": 0,
+    "Name": "llGetAttached",
+    "Parameters": [
+      {
+        "Type": 5,
+        "Name": ""
+      }
+    ]
+  },
+  {
+    "ReturnParam": 4,
+    "Name": "llGetAttachedList",
+    "Parameters": [
+      {
+        "Type": 6,
+        "Name": "avatar"
+      }
+    ]
+  },
+  {
+    "ReturnParam": 4,
+    "Name": "llGetBoundingBox",
+    "Parameters": [
+      {
+        "Type": 6,
+        "Name": "object"
+      }
+    ]
+  },
+  {
+    "ReturnParam": 2,
+    "Name": "llGetCameraPos",
+    "Parameters": [
+      {
+        "Type": 5,
+        "Name": ""
+      }
+    ]
+  },
+  {
+    "ReturnParam": 3,
+    "Name": "llGetCameraRot",
+    "Parameters": [
+      {
+        "Type": 5,
+        "Name": ""
+      }
+    ]
+  },
+  {
+    "ReturnParam": 2,
+    "Name": "llGetCenterOfMass",
+    "Parameters": [
+      {
+        "Type": 5,
+        "Name": ""
+      }
+    ]
+  },
+  {
+    "ReturnParam": 4,
+    "Name": "llGetClosestNavPoint",
+    "Parameters": [
+      {
+        "Type": 2,
+        "Name": "point"
+      },
+      {
+        "Type": 4,
+        "Name": "options"
+      }
+    ]
+  },
+  {
+    "ReturnParam": 2,
+    "Name": "llGetColor",
+    "Parameters": [
+      {
+        "Type": 0,
+        "Name": "face"
+      }
+    ]
+  },
+  {
+    "ReturnParam": 6,
+    "Name": "llGetCreator",
+    "Parameters": [
+      {
+        "Type": 5,
+        "Name": ""
+      }
+    ]
+  },
+  {
+    "ReturnParam": 7,
+    "Name": "llGetDate",
+    "Parameters": [
+      {
+        "Type": 5,
+        "Name": ""
+      }
+    ]
+  },
+  {
+    "ReturnParam": 7,
+    "Name": "llGetDisplayName",
+    "Parameters": [
+      {
+        "Type": 6,
+        "Name": "id"
+      }
+    ]
+  },
+  {
+    "ReturnParam": 1,
+    "Name": "llGetEnergy",
+    "Parameters": [
+      {
+        "Type": 5,
+        "Name": ""
+      }
+    ]
+  },
+  {
+    "ReturnParam": 7,
+    "Name": "llGetEnv",
+    "Parameters": [
+      {
+        "Type": 7,
+        "Name": "name"
+      }
+    ]
+  },
+  {
+    "ReturnParam": 4,
+    "Name": "llGetExperienceDetails",
+    "Parameters": [
+      {
+        "Type": 6,
+        "Name": "experience_id"
+      }
+    ]
+  },
+  {
+    "ReturnParam": 7,
+    "Name": "llGetExperienceErrorMessage",
+    "Parameters": [
+      {
+        "Type": 0,
+        "Name": "error"
+      }
+    ]
+  },
+  {
+    "ReturnParam": 2,
+    "Name": "llGetForce",
+    "Parameters": [
+      {
+        "Type": 5,
+        "Name": ""
+      }
+    ]
+  },
+  {
+    "ReturnParam": 0,
+    "Name": "llGetFreeMemory",
+    "Parameters": [
+      {
+        "Type": 5,
+        "Name": ""
+      }
+    ]
+  },
+  {
+    "ReturnParam": 0,
+    "Name": "llGetFreeURLs",
+    "Parameters": [
+      {
+        "Type": 5,
+        "Name": ""
+      }
+    ]
+  },
+  {
+    "ReturnParam": 2,
+    "Name": "llGetGeometricCenter",
+    "Parameters": [
+      {
+        "Type": 5,
+        "Name": ""
+      }
+    ]
+  },
+  {
+    "ReturnParam": 1,
+    "Name": "llGetGMTclock",
+    "Parameters": [
+      {
+        "Type": 5,
+        "Name": ""
+      }
+    ]
+  },
+  {
+    "ReturnParam": 7,
+    "Name": "llGetHTTPHeader",
+    "Parameters": [
+      {
+        "Type": 6,
+        "Name": "request_id"
+      },
+      {
+        "Type": 7,
+        "Name": "header"
+      }
+    ]
+  },
+  {
+    "ReturnParam": 6,
+    "Name": "llGetInventoryCreator",
+    "Parameters": [
+      {
+        "Type": 7,
+        "Name": "item"
+      }
+    ]
+  },
+  {
+    "ReturnParam": 6,
+    "Name": "llGetInventoryKey",
+    "Parameters": [
+      {
+        "Type": 7,
+        "Name": "name"
+      }
+    ]
+  },
+  {
+    "ReturnParam": 7,
+    "Name": "llGetInventoryName",
+    "Parameters": [
+      {
+        "Type": 0,
+        "Name": "type"
+      },
+      {
+        "Type": 0,
+        "Name": "number"
+      }
+    ]
+  },
+  {
+    "ReturnParam": 0,
+    "Name": "llGetInventoryNumber",
+    "Parameters": [
+      {
+        "Type": 0,
+        "Name": "type"
+      }
+    ]
+  },
+  {
+    "ReturnParam": 0,
+    "Name": "llGetInventoryPermMask",
+    "Parameters": [
+      {
+        "Type": 7,
+        "Name": "item"
+      },
+      {
+        "Type": 0,
+        "Name": "category"
+      }
+    ]
+  },
+  {
+    "ReturnParam": 0,
+    "Name": "llGetInventoryType",
+    "Parameters": [
+      {
+        "Type": 7,
+        "Name": "name"
+      }
+    ]
+  },
+  {
+    "ReturnParam": 6,
+    "Name": "llGetKey",
+    "Parameters": [
+      {
+        "Type": 5,
+        "Name": ""
+      }
+    ]
+  },
+  {
+    "ReturnParam": 6,
+    "Name": "llGetLandOwnerAt",
+    "Parameters": [
+      {
+        "Type": 2,
+        "Name": "pos"
+      }
+    ]
+  },
+  {
+    "ReturnParam": 6,
+    "Name": "llGetLinkKey",
+    "Parameters": [
+      {
+        "Type": 0,
+        "Name": "link"
+      }
+    ]
+  },
+  {
+    "ReturnParam": 4,
+    "Name": "llGetLinkMedia",
+    "Parameters": [
+      {
+        "Type": 0,
+        "Name": "link"
+      },
+      {
+        "Type": 0,
+        "Name": "face"
+      },
+      {
+        "Type": 4,
+        "Name": "params"
+      }
+    ]
+  },
+  {
+    "ReturnParam": 7,
+    "Name": "llGetLinkName",
+    "Parameters": [
+      {
+        "Type": 0,
+        "Name": "link"
+      }
+    ]
+  },
+  {
+    "ReturnParam": 0,
+    "Name": "llGetLinkNumber",
+    "Parameters": [
+      {
+        "Type": 5,
+        "Name": ""
+      }
+    ]
+  },
+  {
+    "ReturnParam": 0,
+    "Name": "llGetLinkNumberOfSides",
+    "Parameters": [
+      {
+        "Type": 0,
+        "Name": "link"
+      }
+    ]
+  },
+  {
+    "ReturnParam": 5,
+    "Name": "",
+    "Parameters": []
+  },
+  {
+    "ReturnParam": 0,
+    "Name": "llGetListEntryType",
+    "Parameters": [
+      {
+        "Type": 4,
+        "Name": "src"
+      },
+      {
+        "Type": 0,
+        "Name": "index"
+      }
+    ]
+  },
+  {
+    "ReturnParam": 0,
+    "Name": "llGetListLength",
+    "Parameters": [
+      {
+        "Type": 4,
+        "Name": "src"
+      }
+    ]
+  },
+  {
+    "ReturnParam": 2,
+    "Name": "llGetLocalPos",
+    "Parameters": [
+      {
+        "Type": 5,
+        "Name": ""
+      }
+    ]
+  },
+  {
+    "ReturnParam": 3,
+    "Name": "llGetLocalRot",
+    "Parameters": [
+      {
+        "Type": 5,
+        "Name": ""
+      }
+    ]
+  },
+  {
+    "ReturnParam": 1,
+    "Name": "llGetMass",
+    "Parameters": [
+      {
+        "Type": 5,
+        "Name": ""
+      }
+    ]
+  },
+  {
+    "ReturnParam": 1,
+    "Name": "llGetMassMKS",
+    "Parameters": [
+      {
+        "Type": 5,
+        "Name": ""
+      }
+    ]
+  },
+  {
+    "ReturnParam": 1,
+    "Name": "llGetMaxScaleFactor",
+    "Parameters": [
+      {
+        "Type": 5,
+        "Name": ""
+      }
+    ]
+  },
+  {
+    "ReturnParam": 0,
+    "Name": "llGetMemoryLimit",
+    "Parameters": [
+      {
+        "Type": 5,
+        "Name": ""
+      }
+    ]
+  },
+  {
+    "ReturnParam": 1,
+    "Name": "llGetMinScaleFactor",
+    "Parameters": [
+      {
+        "Type": 5,
+        "Name": ""
+      }
+    ]
+  },
+  {
+    "ReturnParam": 5,
+    "Name": "llGetNextEmail",
+    "Parameters": [
+      {
+        "Type": 7,
+        "Name": "address"
+      },
+      {
+        "Type": 7,
+        "Name": "subject"
+      }
+    ]
+  },
+  {
+    "ReturnParam": 6,
+    "Name": "llGetNotecardLine",
+    "Parameters": [
+      {
+        "Type": 7,
+        "Name": "name"
+      },
+      {
+        "Type": 0,
+        "Name": "line"
+      }
+    ]
+  },
+  {
+    "ReturnParam": 6,
+    "Name": "llGetNumberOfNotecardLines",
+    "Parameters": [
+      {
+        "Type": 7,
+        "Name": "name"
+      }
+    ]
+  },
+  {
+    "ReturnParam": 0,
+    "Name": "llGetNumberOfPrims",
+    "Parameters": [
+      {
+        "Type": 5,
+        "Name": ""
+      }
+    ]
+  },
+  {
+    "ReturnParam": 0,
+    "Name": "llGetNumberOfSides",
+    "Parameters": [
+      {
+        "Type": 5,
+        "Name": ""
+      }
+    ]
+  },
+  {
+    "ReturnParam": 7,
+    "Name": "llGetObjectDesc",
+    "Parameters": [
+      {
+        "Type": 5,
+        "Name": ""
+      }
+    ]
+  },
+  {
+    "ReturnParam": 4,
+    "Name": "llGetObjectDetails",
+    "Parameters": [
+      {
+        "Type": 6,
+        "Name": "id"
+      },
+      {
+        "Type": 4,
+        "Name": "params"
+      }
+    ]
+  },
+  {
+    "ReturnParam": 1,
+    "Name": "llGetObjectMass",
+    "Parameters": [
+      {
+        "Type": 6,
+        "Name": "id"
+      }
+    ]
+  },
+  {
+    "ReturnParam": 7,
+    "Name": "llGetObjectName",
+    "Parameters": [
+      {
+        "Type": 5,
+        "Name": ""
+      }
+    ]
+  },
+  {
+    "ReturnParam": 0,
+    "Name": "llGetObjectPermMask",
+    "Parameters": [
+      {
+        "Type": 0,
+        "Name": "category"
+      }
+    ]
+  },
+  {
+    "ReturnParam": 0,
+    "Name": "llGetObjectPrimCount",
+    "Parameters": [
+      {
+        "Type": 6,
+        "Name": "prim"
+      }
+    ]
+  },
+  {
+    "ReturnParam": 2,
+    "Name": "llGetOmega",
+    "Parameters": [
+      {
+        "Type": 5,
+        "Name": ""
+      }
+    ]
+  },
+  {
+    "ReturnParam": 6,
+    "Name": "llGetOwner",
+    "Parameters": [
+      {
+        "Type": 5,
+        "Name": ""
+      }
+    ]
+  },
+  {
+    "ReturnParam": 6,
+    "Name": "llGetOwnerKey",
+    "Parameters": [
+      {
+        "Type": 6,
+        "Name": "id"
+      }
+    ]
+  },
+  {
+    "ReturnParam": 4,
+    "Name": "llGetParcelDetails",
+    "Parameters": [
+      {
+        "Type": 2,
+        "Name": "pos"
+      },
+      {
+        "Type": 4,
+        "Name": "params"
+      }
+    ]
+  },
+  {
+    "ReturnParam": 0,
+    "Name": "llGetParcelFlags",
+    "Parameters": [
+      {
+        "Type": 2,
+        "Name": "pos"
+      }
+    ]
+  },
+  {
+    "ReturnParam": 0,
+    "Name": "llGetParcelMaxPrims",
+    "Parameters": [
+      {
+        "Type": 2,
+        "Name": "pos"
+      },
+      {
+        "Type": 0,
+        "Name": "sim_wide"
+      }
+    ]
+  },
+  {
+    "ReturnParam": 7,
+    "Name": "llGetParcelMusicURL",
+    "Parameters": [
+      {
+        "Type": 5,
+        "Name": ""
+      }
+    ]
+  },
+  {
+    "ReturnParam": 0,
+    "Name": "llGetParcelPrimCount",
+    "Parameters": [
+      {
+        "Type": 2,
+        "Name": "pos"
+      },
+      {
+        "Type": 0,
+        "Name": "category"
+      },
+      {
+        "Type": 0,
+        "Name": "sim_wide"
+      }
+    ]
+  },
+  {
+    "ReturnParam": 4,
+    "Name": "llGetParcelPrimOwners",
+    "Parameters": [
+      {
+        "Type": 2,
+        "Name": "pos"
+      }
+    ]
+  },
+  {
+    "ReturnParam": 0,
+    "Name": "llGetPermissions",
+    "Parameters": [
+      {
+        "Type": 5,
+        "Name": ""
+      }
+    ]
+  },
+  {
+    "ReturnParam": 6,
+    "Name": "llGetPermissionsKey",
+    "Parameters": [
+      {
+        "Type": 5,
+        "Name": ""
+      }
+    ]
+  },
+  {
+    "ReturnParam": 4,
+    "Name": "llGetPhysicsMaterial",
+    "Parameters": [
+      {
+        "Type": 5,
+        "Name": ""
+      }
+    ]
+  },
+  {
+    "ReturnParam": 2,
+    "Name": "llGetPos",
+    "Parameters": [
+      {
+        "Type": 5,
+        "Name": ""
+      }
+    ]
+  },
+  {
+    "ReturnParam": 5,
+    "Name": "",
+    "Parameters": []
+  },
+  {
+    "ReturnParam": 4,
+    "Name": "llGetPrimMediaParams",
+    "Parameters": [
+      {
+        "Type": 0,
+        "Name": "face"
+      },
+      {
+        "Type": 4,
+        "Name": "params"
+      }
+    ]
+  },
+  {
+    "ReturnParam": 0,
+    "Name": "llGetRegionAgentCount",
+    "Parameters": [
+      {
+        "Type": 5,
+        "Name": ""
+      }
+    ]
+  },
+  {
+    "ReturnParam": 2,
+    "Name": "llGetRegionCorner",
+    "Parameters": [
+      {
+        "Type": 5,
+        "Name": ""
+      }
+    ]
+  },
+  {
+    "ReturnParam": 0,
+    "Name": "llGetRegionFlags",
+    "Parameters": [
+      {
+        "Type": 5,
+        "Name": ""
+      }
+    ]
+  },
+  {
+    "ReturnParam": 1,
+    "Name": "llGetRegionFPS",
+    "Parameters": [
+      {
+        "Type": 5,
+        "Name": ""
+      }
+    ]
+  },
+  {
+    "ReturnParam": 7,
+    "Name": "llGetRegionName",
+    "Parameters": [
+      {
+        "Type": 5,
+        "Name": ""
+      }
+    ]
+  },
+  {
+    "ReturnParam": 1,
+    "Name": "llGetRegionTimeDilation",
+    "Parameters": [
+      {
+        "Type": 5,
+        "Name": ""
+      }
+    ]
+  },
+  {
+    "ReturnParam": 2,
+    "Name": "llGetRootPosition",
+    "Parameters": [
+      {
+        "Type": 5,
+        "Name": ""
+      }
+    ]
+  },
+  {
+    "ReturnParam": 3,
+    "Name": "llGetRootRotation",
+    "Parameters": [
+      {
+        "Type": 5,
+        "Name": ""
+      }
+    ]
+  },
+  {
+    "ReturnParam": 3,
+    "Name": "llGetRot",
+    "Parameters": [
+      {
+        "Type": 5,
+        "Name": ""
+      }
+    ]
+  },
+  {
+    "ReturnParam": 2,
+    "Name": "llGetScale",
+    "Parameters": [
+      {
+        "Type": 5,
+        "Name": ""
+      }
+    ]
+  },
+  {
+    "ReturnParam": 7,
+    "Name": "llGetScriptName",
+    "Parameters": [
+      {
+        "Type": 5,
+        "Name": ""
+      }
+    ]
+  },
+  {
+    "ReturnParam": 0,
+    "Name": "llGetScriptState",
+    "Parameters": [
+      {
+        "Type": 7,
+        "Name": "script"
+      }
+    ]
+  },
+  {
+    "ReturnParam": 1,
+    "Name": "llGetSimStats",
+    "Parameters": [
+      {
+        "Type": 0,
+        "Name": "stat_type"
+      }
+    ]
+  },
+  {
+    "ReturnParam": 7,
+    "Name": "llGetSimulatorHostname",
+    "Parameters": [
+      {
+        "Type": 5,
+        "Name": ""
+      }
+    ]
+  },
+  {
+    "ReturnParam": 0,
+    "Name": "llGetSPMaxMemory",
+    "Parameters": [
+      {
+        "Type": 5,
+        "Name": ""
+      }
+    ]
+  },
+  {
+    "ReturnParam": 0,
+    "Name": "llGetStartParameter",
+    "Parameters": [
+      {
+        "Type": 5,
+        "Name": ""
+      }
+    ]
+  },
+  {
+    "ReturnParam": 4,
+    "Name": "llGetStaticPath",
+    "Parameters": [
+      {
+        "Type": 2,
+        "Name": "start"
+      },
+      {
+        "Type": 2,
+        "Name": "end"
+      },
+      {
+        "Type": 1,
+        "Name": "radius"
+      },
+      {
+        "Type": 4,
+        "Name": "params"
+      }
+    ]
+  },
+  {
+    "ReturnParam": 0,
+    "Name": "llGetStatus",
+    "Parameters": [
+      {
+        "Type": 0,
+        "Name": "status"
+      }
+    ]
+  },
+  {
+    "ReturnParam": 7,
+    "Name": "llGetSubString",
+    "Parameters": [
+      {
+        "Type": 7,
+        "Name": "src"
+      },
+      {
+        "Type": 0,
+        "Name": "start"
+      },
+      {
+        "Type": 0,
+        "Name": "end"
+      }
+    ]
+  },
+  {
+    "ReturnParam": 2,
+    "Name": "llGetSunDirection",
+    "Parameters": [
+      {
+        "Type": 5,
+        "Name": ""
+      }
+    ]
+  },
+  {
+    "ReturnParam": 7,
+    "Name": "llGetTexture",
+    "Parameters": [
+      {
+        "Type": 0,
+        "Name": "face"
+      }
+    ]
+  },
+  {
+    "ReturnParam": 2,
+    "Name": "llGetTextureOffset",
+    "Parameters": [
+      {
+        "Type": 0,
+        "Name": "face"
+      }
+    ]
+  },
+  {
+    "ReturnParam": 1,
+    "Name": "llGetTextureRot",
+    "Parameters": [
+      {
+        "Type": 0,
+        "Name": "face"
+      }
+    ]
+  },
+  {
+    "ReturnParam": 2,
+    "Name": "llGetTextureScale",
+    "Parameters": [
+      {
+        "Type": 0,
+        "Name": "face"
+      }
+    ]
+  },
+  {
+    "ReturnParam": 1,
+    "Name": "llGetTime",
+    "Parameters": [
+      {
+        "Type": 5,
+        "Name": ""
+      }
+    ]
+  },
+  {
+    "ReturnParam": 1,
+    "Name": "llGetTimeOfDay",
+    "Parameters": [
+      {
+        "Type": 5,
+        "Name": ""
+      }
+    ]
+  },
+  {
+    "ReturnParam": 7,
+    "Name": "llGetTimestamp",
+    "Parameters": [
+      {
+        "Type": 5,
+        "Name": ""
+      }
+    ]
+  },
+  {
+    "ReturnParam": 2,
+    "Name": "llGetTorque",
+    "Parameters": [
+      {
+        "Type": 5,
+        "Name": ""
+      }
+    ]
+  },
+  {
+    "ReturnParam": 0,
+    "Name": "llGetUnixTime",
+    "Parameters": [
+      {
+        "Type": 5,
+        "Name": ""
+      }
+    ]
+  },
+  {
+    "ReturnParam": 0,
+    "Name": "llGetUsedMemory",
+    "Parameters": [
+      {
+        "Type": 5,
+        "Name": ""
+      }
+    ]
+  },
+  {
+    "ReturnParam": 7,
+    "Name": "llGetUsername",
+    "Parameters": [
+      {
+        "Type": 6,
+        "Name": "id"
+      }
+    ]
+  },
+  {
+    "ReturnParam": 2,
+    "Name": "llGetVel",
+    "Parameters": [
+      {
+        "Type": 5,
+        "Name": ""
+      }
+    ]
+  },
+  {
+    "ReturnParam": 1,
+    "Name": "llGetWallclock",
+    "Parameters": [
+      {
+        "Type": 5,
+        "Name": ""
+      }
+    ]
+  },
+  {
+    "ReturnParam": 5,
+    "Name": "llGiveInventory",
+    "Parameters": [
+      {
+        "Type": 6,
+        "Name": "destination"
+      },
+      {
+        "Type": 7,
+        "Name": "inventory"
+      }
+    ]
+  },
+  {
+    "ReturnParam": 5,
+    "Name": "llGiveInventoryList",
+    "Parameters": [
+      {
+        "Type": 6,
+        "Name": "target"
+      },
+      {
+        "Type": 7,
+        "Name": "folder"
+      },
+      {
+        "Type": 4,
+        "Name": "inventory"
+      }
+    ]
+  },
+  {
+    "ReturnParam": 0,
+    "Name": "llGiveMoney",
+    "Parameters": [
+      {
+        "Type": 6,
+        "Name": "destination"
+      },
+      {
+        "Type": 0,
+        "Name": "amount"
+      }
+    ]
+  },
+  {
+    "ReturnParam": 5,
+    "Name": "llGodLikeRezObject",
+    "Parameters": [
+      {
+        "Type": 6,
+        "Name": "inventory"
+      },
+      {
+        "Type": 2,
+        "Name": "pos"
+      }
+    ]
+  },
+  {
+    "ReturnParam": 1,
+    "Name": "llGround",
+    "Parameters": [
+      {
+        "Type": 2,
+        "Name": "offset"
+      }
+    ]
+  },
+  {
+    "ReturnParam": 2,
+    "Name": "llGroundContour",
+    "Parameters": [
+      {
+        "Type": 2,
+        "Name": "offset"
+      }
+    ]
+  },
+  {
+    "ReturnParam": 2,
+    "Name": "llGroundNormal",
+    "Parameters": [
+      {
+        "Type": 2,
+        "Name": "offset"
+      }
+    ]
+  },
+  {
+    "ReturnParam": 5,
+    "Name": "llGroundRepel",
+    "Parameters": [
+      {
+        "Type": 1,
+        "Name": "height"
+      },
+      {
+        "Type": 0,
+        "Name": "water"
+      },
+      {
+        "Type": 1,
+        "Name": "tau"
+      }
+    ]
+  },
+  {
+    "ReturnParam": 2,
+    "Name": "llGroundSlope",
+    "Parameters": [
+      {
+        "Type": 2,
+        "Name": "offset"
+      }
+    ]
+  },
+  {
+    "ReturnParam": 6,
+    "Name": "llHTTPRequest",
+    "Parameters": [
+      {
+        "Type": 7,
+        "Name": "url"
+      },
+      {
+        "Type": 4,
+        "Name": "parameters"
+      },
+      {
+        "Type": 7,
+        "Name": "body"
+      }
+    ]
+  },
+  {
+    "ReturnParam": 5,
+    "Name": "llHTTPResponse",
+    "Parameters": [
+      {
+        "Type": 6,
+        "Name": "request_id"
+      },
+      {
+        "Type": 0,
+        "Name": "status"
+      },
+      {
+        "Type": 7,
+        "Name": "body"
+      }
+    ]
+  },
+  {
+    "ReturnParam": 7,
+    "Name": "llInsertString",
+    "Parameters": [
+      {
+        "Type": 7,
+        "Name": "dst"
+      },
+      {
+        "Type": 0,
+        "Name": "pos"
+      },
+      {
+        "Type": 7,
+        "Name": "src"
+      }
+    ]
+  },
+  {
+    "ReturnParam": 5,
+    "Name": "llInstantMessage",
+    "Parameters": [
+      {
+        "Type": 6,
+        "Name": "user"
+      },
+      {
+        "Type": 7,
+        "Name": "message"
+      }
+    ]
+  },
+  {
+    "ReturnParam": 7,
+    "Name": "llIntegerToBase64",
+    "Parameters": [
+      {
+        "Type": 0,
+        "Name": "number"
+      }
+    ]
+  },
+  {
+    "ReturnParam": 4,
+    "Name": "llJson2List",
+    "Parameters": [
+      {
+        "Type": 7,
+        "Name": "src"
+      }
+    ]
+  },
+  {
+    "ReturnParam": 7,
+    "Name": "llJsonGetValue",
+    "Parameters": [
+      {
+        "Type": 7,
+        "Name": "json"
+      },
+      {
+        "Type": 4,
+        "Name": "specifiers"
+      }
+    ]
+  },
+  {
+    "ReturnParam": 7,
+    "Name": "llJsonSetValue",
+    "Parameters": [
+      {
+        "Type": 7,
+        "Name": "json"
+      },
+      {
+        "Type": 4,
+        "Name": "specifiers"
+      },
+      {
+        "Type": 7,
+        "Name": "value"
+      }
+    ]
+  },
+  {
+    "ReturnParam": 7,
+    "Name": "llJsonValueType",
+    "Parameters": [
+      {
+        "Type": 7,
+        "Name": "json"
+      },
+      {
+        "Type": 4,
+        "Name": "specifiers"
+      }
+    ]
+  },
+  {
+    "ReturnParam": 7,
+    "Name": "llKey2Name",
+    "Parameters": [
+      {
+        "Type": 6,
+        "Name": "id"
+      }
+    ]
+  },
+  {
+    "ReturnParam": 6,
+    "Name": "llKeyCountKeyValue",
+    "Parameters": [
+      {
+        "Type": 5,
+        "Name": ""
+      }
+    ]
+  },
+  {
+    "ReturnParam": 6,
+    "Name": "llKeysKeyValue",
+    "Parameters": [
+      {
+        "Type": 0,
+        "Name": "first"
+      },
+      {
+        "Type": 0,
+        "Name": "count"
+      }
+    ]
+  },
+  {
+    "ReturnParam": 5,
+    "Name": "",
+    "Parameters": []
+  },
+  {
+    "ReturnParam": 5,
+    "Name": "llLinkSitTarget",
+    "Parameters": [
+      {
+        "Type": 0,
+        "Name": "link"
+      },
+      {
+        "Type": 2,
+        "Name": "offset"
+      },
+      {
+        "Type": 3,
+        "Name": "rot"
+      }
+    ]
+  },
+  {
+    "ReturnParam": 7,
+    "Name": "llList2CSV",
+    "Parameters": [
+      {
+        "Type": 4,
+        "Name": "src"
+      }
+    ]
+  },
+  {
+    "ReturnParam": 1,
+    "Name": "llList2Float",
+    "Parameters": [
+      {
+        "Type": 4,
+        "Name": "src"
+      },
+      {
+        "Type": 0,
+        "Name": "index"
+      }
+    ]
+  },
+  {
+    "ReturnParam": 0,
+    "Name": "llList2Integer",
+    "Parameters": [
+      {
+        "Type": 4,
+        "Name": "src"
+      },
+      {
+        "Type": 0,
+        "Name": "index"
+      }
+    ]
+  },
+  {
+    "ReturnParam": 7,
+    "Name": "llList2Json",
+    "Parameters": [
+      {
+        "Type": 7,
+        "Name": "type"
+      },
+      {
+        "Type": 4,
+        "Name": "values"
+      }
+    ]
+  },
+  {
+    "ReturnParam": 6,
+    "Name": "llList2Key",
+    "Parameters": [
+      {
+        "Type": 4,
+        "Name": "src"
+      },
+      {
+        "Type": 0,
+        "Name": "index"
+      }
+    ]
+  },
+  {
+    "ReturnParam": 4,
+    "Name": "llList2List",
+    "Parameters": [
+      {
+        "Type": 4,
+        "Name": "src"
+      },
+      {
+        "Type": 0,
+        "Name": "start"
+      },
+      {
+        "Type": 0,
+        "Name": "end"
+      }
+    ]
+  },
+  {
+    "ReturnParam": 4,
+    "Name": "llList2ListStrided",
+    "Parameters": [
+      {
+        "Type": 4,
+        "Name": "src"
+      },
+      {
+        "Type": 0,
+        "Name": "start"
+      },
+      {
+        "Type": 0,
+        "Name": "end"
+      },
+      {
+        "Type": 0,
+        "Name": "stride"
+      }
+    ]
+  },
+  {
+    "ReturnParam": 3,
+    "Name": "llList2Rot",
+    "Parameters": [
+      {
+        "Type": 4,
+        "Name": "src"
+      },
+      {
+        "Type": 0,
+        "Name": "index"
+      }
+    ]
+  },
+  {
+    "ReturnParam": 7,
+    "Name": "llList2String",
+    "Parameters": [
+      {
+        "Type": 4,
+        "Name": "src"
+      },
+      {
+        "Type": 0,
+        "Name": "index"
+      }
+    ]
+  },
+  {
+    "ReturnParam": 2,
+    "Name": "llList2Vector",
+    "Parameters": [
+      {
+        "Type": 4,
+        "Name": "src"
+      },
+      {
+        "Type": 0,
+        "Name": "index"
+      }
+    ]
+  },
+  {
+    "ReturnParam": 0,
+    "Name": "llListen",
+    "Parameters": [
+      {
+        "Type": 0,
+        "Name": "channel"
+      },
+      {
+        "Type": 7,
+        "Name": "name"
+      },
+      {
+        "Type": 6,
+        "Name": "id"
+      },
+      {
+        "Type": 7,
+        "Name": "msg"
+      }
+    ]
+  },
+  {
+    "ReturnParam": 5,
+    "Name": "llListenControl",
+    "Parameters": [
+      {
+        "Type": 0,
+        "Name": "handle"
+      },
+      {
+        "Type": 0,
+        "Name": "active"
+      }
+    ]
+  },
+  {
+    "ReturnParam": 5,
+    "Name": "llListenRemove",
+    "Parameters": [
+      {
+        "Type": 0,
+        "Name": "handle"
+      }
+    ]
+  },
+  {
+    "ReturnParam": 0,
+    "Name": "llListFindList",
+    "Parameters": [
+      {
+        "Type": 4,
+        "Name": "src"
+      },
+      {
+        "Type": 4,
+        "Name": "test"
+      }
+    ]
+  },
+  {
+    "ReturnParam": 4,
+    "Name": "llListInsertList",
+    "Parameters": [
+      {
+        "Type": 4,
+        "Name": "dest"
+      },
+      {
+        "Type": 4,
+        "Name": "src"
+      },
+      {
+        "Type": 0,
+        "Name": "start"
+      }
+    ]
+  },
+  {
+    "ReturnParam": 4,
+    "Name": "llListRandomize",
+    "Parameters": [
+      {
+        "Type": 4,
+        "Name": "src"
+      },
+      {
+        "Type": 0,
+        "Name": "stride"
+      }
+    ]
+  },
+  {
+    "ReturnParam": 4,
+    "Name": "llListReplaceList",
+    "Parameters": [
+      {
+        "Type": 4,
+        "Name": "dest"
+      },
+      {
+        "Type": 4,
+        "Name": "src"
+      },
+      {
+        "Type": 0,
+        "Name": "start"
+      },
+      {
+        "Type": 0,
+        "Name": "end"
+      }
+    ]
+  },
+  {
+    "ReturnParam": 4,
+    "Name": "llListSort",
+    "Parameters": [
+      {
+        "Type": 4,
+        "Name": "src"
+      },
+      {
+        "Type": 0,
+        "Name": "stride"
+      },
+      {
+        "Type": 0,
+        "Name": "ascending"
+      }
+    ]
+  },
+  {
+    "ReturnParam": 1,
+    "Name": "llListStatistics",
+    "Parameters": [
+      {
+        "Type": 0,
+        "Name": "operation"
+      },
+      {
+        "Type": 4,
+        "Name": "src"
+      }
+    ]
+  },
+  {
+    "ReturnParam": 5,
+    "Name": "llLoadURL",
+    "Parameters": [
+      {
+        "Type": 6,
+        "Name": "avatar"
+      },
+      {
+        "Type": 7,
+        "Name": "message"
+      },
+      {
+        "Type": 7,
+        "Name": "url"
+      }
+    ]
+  },
+  {
+    "ReturnParam": 1,
+    "Name": "llLog",
+    "Parameters": [
+      {
+        "Type": 1,
+        "Name": "val"
+      }
+    ]
+  },
+  {
+    "ReturnParam": 1,
+    "Name": "llLog10",
+    "Parameters": [
+      {
+        "Type": 1,
+        "Name": "val"
+      }
+    ]
+  },
+  {
+    "ReturnParam": 5,
+    "Name": "llLookAt",
+    "Parameters": [
+      {
+        "Type": 2,
+        "Name": "target"
+      },
+      {
+        "Type": 1,
+        "Name": "strength"
+      },
+      {
+        "Type": 1,
+        "Name": "damping"
+      }
+    ]
+  },
+  {
+    "ReturnParam": 5,
+    "Name": "llLoopSound",
+    "Parameters": [
+      {
+        "Type": 7,
+        "Name": "sound"
+      },
+      {
+        "Type": 1,
+        "Name": "volume"
+      }
+    ]
+  },
+  {
+    "ReturnParam": 5,
+    "Name": "llLoopSoundMaster",
+    "Parameters": [
+      {
+        "Type": 7,
+        "Name": "sound"
+      },
+      {
+        "Type": 1,
+        "Name": "volume"
+      }
+    ]
+  },
+  {
+    "ReturnParam": 5,
+    "Name": "llLoopSoundSlave",
+    "Parameters": [
+      {
+        "Type": 7,
+        "Name": "sound"
+      },
+      {
+        "Type": 1,
+        "Name": "volume"
+      }
+    ]
+  },
+  {
+    "ReturnParam": 5,
+    "Name": "llMakeExplosion",
+    "Parameters": [
+      {
+        "Type": 0,
+        "Name": "particles"
+      },
+      {
+        "Type": 1,
+        "Name": "scale"
+      },
+      {
+        "Type": 1,
+        "Name": "vel"
+      },
+      {
+        "Type": 1,
+        "Name": "lifetime"
+      },
+      {
+        "Type": 1,
+        "Name": "arc"
+      },
+      {
+        "Type": 7,
+        "Name": "texture"
+      },
+      {
+        "Type": 2,
+        "Name": "offset"
+      }
+    ]
+  },
+  {
+    "ReturnParam": 5,
+    "Name": "llMakeFire",
+    "Parameters": [
+      {
+        "Type": 0,
+        "Name": "particles"
+      },
+      {
+        "Type": 1,
+        "Name": "scale"
+      },
+      {
+        "Type": 1,
+        "Name": "vel"
+      },
+      {
+        "Type": 1,
+        "Name": "lifetime"
+      },
+      {
+        "Type": 1,
+        "Name": "arc"
+      },
+      {
+        "Type": 7,
+        "Name": "texture"
+      },
+      {
+        "Type": 2,
+        "Name": "offset"
+      }
+    ]
+  },
+  {
+    "ReturnParam": 5,
+    "Name": "llMakeFountain",
+    "Parameters": [
+      {
+        "Type": 0,
+        "Name": "particles"
+      },
+      {
+        "Type": 1,
+        "Name": "scale"
+      },
+      {
+        "Type": 1,
+        "Name": "vel"
+      },
+      {
+        "Type": 1,
+        "Name": "lifetime"
+      },
+      {
+        "Type": 1,
+        "Name": "arc"
+      },
+      {
+        "Type": 0,
+        "Name": "bounce"
+      },
+      {
+        "Type": 7,
+        "Name": "texture"
+      },
+      {
+        "Type": 2,
+        "Name": "offset"
+      },
+      {
+        "Type": 1,
+        "Name": "bounce_offset"
+      }
+    ]
+  },
+  {
+    "ReturnParam": 5,
+    "Name": "llMakeSmoke",
+    "Parameters": [
+      {
+        "Type": 0,
+        "Name": "particles"
+      },
+      {
+        "Type": 1,
+        "Name": "scale"
+      },
+      {
+        "Type": 1,
+        "Name": "vel"
+      },
+      {
+        "Type": 1,
+        "Name": "lifetime"
+      },
+      {
+        "Type": 1,
+        "Name": "arc"
+      },
+      {
+        "Type": 7,
+        "Name": "texture"
+      },
+      {
+        "Type": 2,
+        "Name": "offset"
+      }
+    ]
+  },
+  {
+    "ReturnParam": 0,
+    "Name": "llManageEstateAccess",
+    "Parameters": [
+      {
+        "Type": 0,
+        "Name": "action"
+      },
+      {
+        "Type": 6,
+        "Name": "avatar"
+      }
+    ]
+  },
+  {
+    "ReturnParam": 5,
+    "Name": "llMapDestination",
+    "Parameters": [
+      {
+        "Type": 7,
+        "Name": "simname"
+      },
+      {
+        "Type": 2,
+        "Name": "pos"
+      },
+      {
+        "Type": 2,
+        "Name": "look_at"
+      }
+    ]
+  },
+  {
+    "ReturnParam": 7,
+    "Name": "llMD5String",
+    "Parameters": [
+      {
+        "Type": 7,
+        "Name": "src"
+      },
+      {
+        "Type": 0,
+        "Name": "nonce"
+      }
+    ]
+  },
+  {
+    "ReturnParam": 5,
+    "Name": "llMessageLinked",
+    "Parameters": [
+      {
+        "Type": 0,
+        "Name": "link"
+      },
+      {
+        "Type": 0,
+        "Name": "num"
+      },
+      {
+        "Type": 7,
+        "Name": "str"
+      },
+      {
+        "Type": 6,
+        "Name": "id"
+      }
+    ]
+  },
+  {
+    "ReturnParam": 5,
+    "Name": "llMinEventDelay",
+    "Parameters": [
+      {
+        "Type": 1,
+        "Name": "delay"
+      }
+    ]
+  },
+  {
+    "ReturnParam": 5,
+    "Name": "llModifyLand",
+    "Parameters": [
+      {
+        "Type": 0,
+        "Name": "action"
+      },
+      {
+        "Type": 0,
+        "Name": "brush"
+      }
+    ]
+  },
+  {
+    "ReturnParam": 0,
+    "Name": "llModPow",
+    "Parameters": [
+      {
+        "Type": 0,
+        "Name": "a"
+      },
+      {
+        "Type": 0,
+        "Name": "b"
+      },
+      {
+        "Type": 0,
+        "Name": "c"
+      }
+    ]
+  },
+  {
+    "ReturnParam": 5,
+    "Name": "llMoveToTarget",
+    "Parameters": [
+      {
+        "Type": 2,
+        "Name": "target"
+      },
+      {
+        "Type": 1,
+        "Name": "tau"
+      }
+    ]
+  },
+  {
+    "ReturnParam": 5,
+    "Name": "llNavigateTo",
+    "Parameters": [
+      {
+        "Type": 2,
+        "Name": "pos"
+      },
+      {
+        "Type": 4,
+        "Name": "options"
+      }
+    ]
+  },
+  {
+    "ReturnParam": 5,
+    "Name": "llOffsetTexture",
+    "Parameters": [
+      {
+        "Type": 1,
+        "Name": "u"
+      },
+      {
+        "Type": 1,
+        "Name": "v"
+      },
+      {
+        "Type": 0,
+        "Name": "face"
+      }
+    ]
+  },
+  {
+    "ReturnParam": 5,
+    "Name": "llOpenRemoteDataChannel",
+    "Parameters": [
+      {
+        "Type": 5,
+        "Name": ""
+      }
+    ]
+  },
+  {
+    "ReturnParam": 0,
+    "Name": "llOverMyLand",
+    "Parameters": [
+      {
+        "Type": 6,
+        "Name": "id"
+      }
+    ]
+  },
+  {
+    "ReturnParam": 5,
+    "Name": "llOwnerSay",
+    "Parameters": [
+      {
+        "Type": 7,
+        "Name": "msg"
+      }
+    ]
+  },
+  {
+    "ReturnParam": 5,
+    "Name": "llParcelMediaCommandList",
+    "Parameters": [
+      {
+        "Type": 4,
+        "Name": "commandList"
+      }
+    ]
+  },
+  {
+    "ReturnParam": 4,
+    "Name": "llParcelMediaQuery",
+    "Parameters": [
+      {
+        "Type": 4,
+        "Name": "query"
+      }
+    ]
+  },
+  {
+    "ReturnParam": 4,
+    "Name": "llParseString2List",
+    "Parameters": [
+      {
+        "Type": 7,
+        "Name": "src"
+      },
+      {
+        "Type": 4,
+        "Name": "separators"
+      },
+      {
+        "Type": 4,
+        "Name": "spacers"
+      }
+    ]
+  },
+  {
+    "ReturnParam": 4,
+    "Name": "llParseStringKeepNulls",
+    "Parameters": [
+      {
+        "Type": 7,
+        "Name": "src"
+      },
+      {
+        "Type": 4,
+        "Name": "separators"
+      },
+      {
+        "Type": 4,
+        "Name": "spacers"
+      }
+    ]
+  },
+  {
+    "ReturnParam": 5,
+    "Name": "",
+    "Parameters": []
+  },
+  {
+    "ReturnParam": 5,
+    "Name": "llPassCollisions",
+    "Parameters": [
+      {
+        "Type": 0,
+        "Name": "pass"
+      }
+    ]
+  },
+  {
+    "ReturnParam": 5,
+    "Name": "llPassTouches",
+    "Parameters": [
+      {
+        "Type": 0,
+        "Name": "pass"
+      }
+    ]
+  },
+  {
+    "ReturnParam": 5,
+    "Name": "llPatrolPoints",
+    "Parameters": [
+      {
+        "Type": 4,
+        "Name": "patrolPoints"
+      },
+      {
+        "Type": 4,
+        "Name": "options"
+      }
+    ]
+  },
+  {
+    "ReturnParam": 5,
+    "Name": "llPlaySound",
+    "Parameters": [
+      {
+        "Type": 7,
+        "Name": "sound"
+      },
+      {
+        "Type": 1,
+        "Name": "volume"
+      }
+    ]
+  },
+  {
+    "ReturnParam": 5,
+    "Name": "llPlaySoundSlave",
+    "Parameters": [
+      {
+        "Type": 7,
+        "Name": "sound"
+      },
+      {
+        "Type": 1,
+        "Name": "volume"
+      }
+    ]
+  },
+  {
+    "ReturnParam": 5,
+    "Name": "llPointAt",
+    "Parameters": [
+      {
+        "Type": 2,
+        "Name": "pos"
+      }
+    ]
+  },
+  {
+    "ReturnParam": 1,
+    "Name": "llPow",
+    "Parameters": [
+      {
+        "Type": 1,
+        "Name": "base"
+      },
+      {
+        "Type": 1,
+        "Name": "exponent"
+      }
+    ]
+  },
+  {
+    "ReturnParam": 5,
+    "Name": "llPreloadSound",
+    "Parameters": [
+      {
+        "Type": 7,
+        "Name": "sound"
+      }
+    ]
+  },
+  {
+    "ReturnParam": 5,
+    "Name": "llPursue",
+    "Parameters": [
+      {
+        "Type": 6,
+        "Name": "target"
+      },
+      {
+        "Type": 4,
+        "Name": "options"
+      }
+    ]
+  },
+  {
+    "ReturnParam": 5,
+    "Name": "llPushObject",
+    "Parameters": [
+      {
+        "Type": 6,
+        "Name": "target"
+      },
+      {
+        "Type": 2,
+        "Name": "impulse"
+      },
+      {
+        "Type": 2,
+        "Name": "ang_impulse"
+      },
+      {
+        "Type": 0,
+        "Name": "local"
+      }
+    ]
+  },
+  {
+    "ReturnParam": 6,
+    "Name": "llReadKeyValue",
+    "Parameters": [
+      {
+        "Type": 7,
+        "Name": "k"
+      }
+    ]
+  },
+  {
+    "ReturnParam": 5,
+    "Name": "llRefreshPrimURL",
+    "Parameters": [
+      {
+        "Type": 5,
+        "Name": ""
+      }
+    ]
+  },
+  {
+    "ReturnParam": 5,
+    "Name": "llRegionSay",
+    "Parameters": [
+      {
+        "Type": 0,
+        "Name": "channel"
+      },
+      {
+        "Type": 7,
+        "Name": "msg"
+      }
+    ]
+  },
+  {
+    "ReturnParam": 5,
+    "Name": "llRegionSayTo",
+    "Parameters": [
+      {
+        "Type": 6,
+        "Name": "target"
+      },
+      {
+        "Type": 0,
+        "Name": "channel"
+      },
+      {
+        "Type": 7,
+        "Name": "msg"
+      }
+    ]
+  },
+  {
+    "ReturnParam": 5,
+    "Name": "llReleaseCamera",
+    "Parameters": [
+      {
+        "Type": 6,
+        "Name": "avatar"
+      }
+    ]
+  },
+  {
+    "ReturnParam": 5,
+    "Name": "llReleaseControls",
+    "Parameters": [
+      {
+        "Type": 5,
+        "Name": ""
+      }
+    ]
+  },
+  {
+    "ReturnParam": 5,
+    "Name": "llReleaseURL",
+    "Parameters": [
+      {
+        "Type": 7,
+        "Name": "url"
+      }
+    ]
+  },
+  {
+    "ReturnParam": 5,
+    "Name": "llRemoteDataReply",
+    "Parameters": [
+      {
+        "Type": 6,
+        "Name": "channel"
+      },
+      {
+        "Type": 6,
+        "Name": "message_id"
+      },
+      {
+        "Type": 7,
+        "Name": "sdata"
+      },
+      {
+        "Type": 0,
+        "Name": "idata"
+      }
+    ]
+  },
+  {
+    "ReturnParam": 5,
+    "Name": "llRemoteDataSetRegion",
+    "Parameters": [
+      {
+        "Type": 5,
+        "Name": ""
+      }
+    ]
+  },
+  {
+    "ReturnParam": 5,
+    "Name": "llRemoteLoadScript",
+    "Parameters": [
+      {
+        "Type": 6,
+        "Name": "target"
+      },
+      {
+        "Type": 7,
+        "Name": "name"
+      },
+      {
+        "Type": 0,
+        "Name": "running"
+      },
+      {
+        "Type": 0,
+        "Name": "start_param"
+      }
+    ]
+  },
+  {
+    "ReturnParam": 5,
+    "Name": "llRemoteLoadScriptPin",
+    "Parameters": [
+      {
+        "Type": 6,
+        "Name": "target"
+      },
+      {
+        "Type": 7,
+        "Name": "name"
+      },
+      {
+        "Type": 0,
+        "Name": "pin"
+      },
+      {
+        "Type": 0,
+        "Name": "running"
+      },
+      {
+        "Type": 0,
+        "Name": "start_param"
+      }
+    ]
+  },
+  {
+    "ReturnParam": 5,
+    "Name": "llRemoveFromLandBanList",
+    "Parameters": [
+      {
+        "Type": 6,
+        "Name": "avatar"
+      }
+    ]
+  },
+  {
+    "ReturnParam": 5,
+    "Name": "llRemoveFromLandPassList",
+    "Parameters": [
+      {
+        "Type": 6,
+        "Name": "avatar"
+      }
+    ]
+  },
+  {
+    "ReturnParam": 5,
+    "Name": "llRemoveInventory",
+    "Parameters": [
+      {
+        "Type": 7,
+        "Name": "item"
+      }
+    ]
+  },
+  {
+    "ReturnParam": 5,
+    "Name": "llRemoveVehicleFlags",
+    "Parameters": [
+      {
+        "Type": 0,
+        "Name": "flags"
+      }
+    ]
+  },
+  {
+    "ReturnParam": 6,
+    "Name": "llRequestAgentData",
+    "Parameters": [
+      {
+        "Type": 6,
+        "Name": "id"
+      },
+      {
+        "Type": 0,
+        "Name": "data"
+      }
+    ]
+  },
+  {
+    "ReturnParam": 6,
+    "Name": "llRequestDisplayName",
+    "Parameters": [
+      {
+        "Type": 6,
+        "Name": "id"
+      }
+    ]
+  },
+  {
+    "ReturnParam": 5,
+    "Name": "llRequestExperiencePermissions",
+    "Parameters": [
+      {
+        "Type": 6,
+        "Name": "agent"
+      },
+      {
+        "Type": 7,
+        "Name": "name"
+      }
+    ]
+  },
+  {
+    "ReturnParam": 6,
+    "Name": "llRequestInventoryData",
+    "Parameters": [
+      {
+        "Type": 7,
+        "Name": "name"
+      }
+    ]
+  },
+  {
+    "ReturnParam": 5,
+    "Name": "llRequestPermissions",
+    "Parameters": [
+      {
+        "Type": 6,
+        "Name": "agent"
+      },
+      {
+        "Type": 0,
+        "Name": "permissions"
+      }
+    ]
+  },
+  {
+    "ReturnParam": 6,
+    "Name": "llRequestSecureURL",
+    "Parameters": [
+      {
+        "Type": 5,
+        "Name": ""
+      }
+    ]
+  },
+  {
+    "ReturnParam": 6,
+    "Name": "llRequestSimulatorData",
+    "Parameters": [
+      {
+        "Type": 7,
+        "Name": "region"
+      },
+      {
+        "Type": 0,
+        "Name": "data"
+      }
+    ]
+  },
+  {
+    "ReturnParam": 6,
+    "Name": "llRequestURL",
+    "Parameters": [
+      {
+        "Type": 5,
+        "Name": ""
+      }
+    ]
+  },
+  {
+    "ReturnParam": 6,
+    "Name": "llRequestUsername",
+    "Parameters": [
+      {
+        "Type": 6,
+        "Name": "id"
+      }
+    ]
+  },
+  {
+    "ReturnParam": 5,
+    "Name": "llResetAnimationOverride",
+    "Parameters": [
+      {
+        "Type": 7,
+        "Name": "anim_state"
+      }
+    ]
+  },
+  {
+    "ReturnParam": 5,
+    "Name": "llResetLandBanList",
+    "Parameters": [
+      {
+        "Type": 5,
+        "Name": ""
+      }
+    ]
+  },
+  {
+    "ReturnParam": 5,
+    "Name": "llResetLandPassList",
+    "Parameters": [
+      {
+        "Type": 5,
+        "Name": ""
+      }
+    ]
+  },
+  {
+    "ReturnParam": 5,
+    "Name": "llResetOtherScript",
+    "Parameters": [
+      {
+        "Type": 7,
+        "Name": "name"
+      }
+    ]
+  },
+  {
+    "ReturnParam": 5,
+    "Name": "llResetScript",
+    "Parameters": [
+      {
+        "Type": 5,
+        "Name": ""
+      }
+    ]
+  },
+  {
+    "ReturnParam": 5,
+    "Name": "llResetTime",
+    "Parameters": [
+      {
+        "Type": 5,
+        "Name": ""
+      }
+    ]
+  },
+  {
+    "ReturnParam": 0,
+    "Name": "llReturnObjectsByID",
+    "Parameters": [
+      {
+        "Type": 4,
+        "Name": "objects"
+      }
+    ]
+  },
+  {
+    "ReturnParam": 0,
+    "Name": "llReturnObjectsByOwner",
+    "Parameters": [
+      {
+        "Type": 6,
+        "Name": "owner"
+      },
+      {
+        "Type": 0,
+        "Name": "scope"
+      }
+    ]
+  },
+  {
+    "ReturnParam": 5,
+    "Name": "llRezAtRoot",
+    "Parameters": [
+      {
+        "Type": 7,
+        "Name": "inventory"
+      },
+      {
+        "Type": 2,
+        "Name": "position"
+      },
+      {
+        "Type": 2,
+        "Name": "velocity"
+      },
+      {
+        "Type": 3,
+        "Name": "rot"
+      },
+      {
+        "Type": 0,
+        "Name": "param"
+      }
+    ]
+  },
+  {
+    "ReturnParam": 5,
+    "Name": "llRezObject",
+    "Parameters": [
+      {
+        "Type": 7,
+        "Name": "inventory"
+      },
+      {
+        "Type": 2,
+        "Name": "pos"
+      },
+      {
+        "Type": 2,
+        "Name": "vel"
+      },
+      {
+        "Type": 3,
+        "Name": "rot"
+      },
+      {
+        "Type": 0,
+        "Name": "param"
+      }
+    ]
+  },
+  {
+    "ReturnParam": 1,
+    "Name": "llRot2Angle",
+    "Parameters": [
+      {
+        "Type": 3,
+        "Name": "rot"
+      }
+    ]
+  },
+  {
+    "ReturnParam": 2,
+    "Name": "llRot2Axis",
+    "Parameters": [
+      {
+        "Type": 3,
+        "Name": "rot"
+      }
+    ]
+  },
+  {
+    "ReturnParam": 2,
+    "Name": "llRot2Euler",
+    "Parameters": [
+      {
+        "Type": 3,
+        "Name": "quat"
+      }
+    ]
+  },
+  {
+    "ReturnParam": 2,
+    "Name": "llRot2Fwd",
+    "Parameters": [
+      {
+        "Type": 3,
+        "Name": "q"
+      }
+    ]
+  },
+  {
+    "ReturnParam": 2,
+    "Name": "llRot2Left",
+    "Parameters": [
+      {
+        "Type": 3,
+        "Name": "q"
+      }
+    ]
+  },
+  {
+    "ReturnParam": 2,
+    "Name": "llRot2Up",
+    "Parameters": [
+      {
+        "Type": 3,
+        "Name": "q"
+      }
+    ]
+  },
+  {
+    "ReturnParam": 5,
+    "Name": "llRotateTexture",
+    "Parameters": [
+      {
+        "Type": 1,
+        "Name": "angle"
+      },
+      {
+        "Type": 0,
+        "Name": "face"
+      }
+    ]
+  },
+  {
+    "ReturnParam": 3,
+    "Name": "llRotBetween",
+    "Parameters": [
+      {
+        "Type": 2,
+        "Name": "start"
+      },
+      {
+        "Type": 2,
+        "Name": "end"
+      }
+    ]
+  },
+  {
+    "ReturnParam": 5,
+    "Name": "llRotLookAt",
+    "Parameters": [
+      {
+        "Type": 3,
+        "Name": "target_direction"
+      },
+      {
+        "Type": 1,
+        "Name": "strength"
+      },
+      {
+        "Type": 1,
+        "Name": "damping"
+      }
+    ]
+  },
+  {
+    "ReturnParam": 0,
+    "Name": "llRotTarget",
+    "Parameters": [
+      {
+        "Type": 3,
+        "Name": "rot"
+      },
+      {
+        "Type": 1,
+        "Name": "error"
+      }
+    ]
+  },
+  {
+    "ReturnParam": 5,
+    "Name": "llRotTargetRemove",
+    "Parameters": [
+      {
+        "Type": 0,
+        "Name": "handle"
+      }
+    ]
+  },
+  {
+    "ReturnParam": 0,
+    "Name": "llRound",
+    "Parameters": [
+      {
+        "Type": 1,
+        "Name": "val"
+      }
+    ]
+  },
+  {
+    "ReturnParam": 0,
+    "Name": "llSameGroup",
+    "Parameters": [
+      {
+        "Type": 6,
+        "Name": "uuid"
+      }
+    ]
+  },
+  {
+    "ReturnParam": 5,
+    "Name": "llSay",
+    "Parameters": [
+      {
+        "Type": 0,
+        "Name": "channel"
+      },
+      {
+        "Type": 7,
+        "Name": "msg"
+      }
+    ]
+  },
+  {
+    "ReturnParam": 0,
+    "Name": "llScaleByFactor",
+    "Parameters": [
+      {
+        "Type": 1,
+        "Name": "scaling_factor"
+      }
+    ]
+  },
+  {
+    "ReturnParam": 5,
+    "Name": "llScaleTexture",
+    "Parameters": [
+      {
+        "Type": 1,
+        "Name": "u"
+      },
+      {
+        "Type": 1,
+        "Name": "v"
+      },
+      {
+        "Type": 0,
+        "Name": "face"
+      }
+    ]
+  },
+  {
+    "ReturnParam": 0,
+    "Name": "llScriptDanger",
+    "Parameters": [
+      {
+        "Type": 2,
+        "Name": "pos"
+      }
+    ]
+  },
+  {
+    "ReturnParam": 5,
+    "Name": "llScriptProfiler",
+    "Parameters": [
+      {
+        "Type": 0,
+        "Name": "flags"
+      }
+    ]
+  },
+  {
+    "ReturnParam": 6,
+    "Name": "llSendRemoteData",
+    "Parameters": [
+      {
+        "Type": 6,
+        "Name": "channel"
+      },
+      {
+        "Type": 7,
+        "Name": "dest"
+      },
+      {
+        "Type": 0,
+        "Name": "idata"
+      },
+      {
+        "Type": 7,
+        "Name": "sdata"
+      }
+    ]
+  },
+  {
+    "ReturnParam": 5,
+    "Name": "llSensor",
+    "Parameters": [
+      {
+        "Type": 7,
+        "Name": "name"
+      },
+      {
+        "Type": 6,
+        "Name": "id"
+      },
+      {
+        "Type": 0,
+        "Name": "type"
+      },
+      {
+        "Type": 1,
+        "Name": "radius"
+      },
+      {
+        "Type": 1,
+        "Name": "arc"
+      }
+    ]
+  },
+  {
+    "ReturnParam": 5,
+    "Name": "llSensorRemove",
+    "Parameters": [
+      {
+        "Type": 5,
+        "Name": ""
+      }
+    ]
+  },
+  {
+    "ReturnParam": 5,
+    "Name": "llSensorRepeat",
+    "Parameters": [
+      {
+        "Type": 7,
+        "Name": "name"
+      },
+      {
+        "Type": 6,
+        "Name": "id"
+      },
+      {
+        "Type": 0,
+        "Name": "type"
+      },
+      {
+        "Type": 1,
+        "Name": "range"
+      },
+      {
+        "Type": 1,
+        "Name": "arc"
+      },
+      {
+        "Type": 1,
+        "Name": "rate"
+      }
+    ]
+  },
+  {
+    "ReturnParam": 5,
+    "Name": "llSetAlpha",
+    "Parameters": [
+      {
+        "Type": 1,
+        "Name": "alpha"
+      },
+      {
+        "Type": 0,
+        "Name": "face"
+      }
+    ]
+  },
+  {
+    "ReturnParam": 5,
+    "Name": "llSetAngularVelocity",
+    "Parameters": [
+      {
+        "Type": 2,
+        "Name": "initial_omega"
+      },
+      {
+        "Type": 0,
+        "Name": "local"
+      }
+    ]
+  },
+  {
+    "ReturnParam": 5,
+    "Name": "llSetAnimationOverride",
+    "Parameters": [
+      {
+        "Type": 7,
+        "Name": "anim_state"
+      },
+      {
+        "Type": 7,
+        "Name": "anim"
+      }
+    ]
+  },
+  {
+    "ReturnParam": 5,
+    "Name": "llSetBuoyancy",
+    "Parameters": [
+      {
+        "Type": 1,
+        "Name": "buoyancy"
+      }
+    ]
+  },
+  {
+    "ReturnParam": 5,
+    "Name": "llSetCameraAtOffset",
+    "Parameters": [
+      {
+        "Type": 2,
+        "Name": "offset"
+      }
+    ]
+  },
+  {
+    "ReturnParam": 5,
+    "Name": "llSetCameraEyeOffset",
+    "Parameters": [
+      {
+        "Type": 2,
+        "Name": "offset"
+      }
+    ]
+  },
+  {
+    "ReturnParam": 5,
+    "Name": "llSetCameraParams",
+    "Parameters": [
+      {
+        "Type": 4,
+        "Name": "rules"
+      }
+    ]
+  },
+  {
+    "ReturnParam": 5,
+    "Name": "llSetClickAction",
+    "Parameters": [
+      {
+        "Type": 0,
+        "Name": "action"
+      }
+    ]
+  },
+  {
+    "ReturnParam": 5,
+    "Name": "llSetColor",
+    "Parameters": [
+      {
+        "Type": 2,
+        "Name": "color"
+      },
+      {
+        "Type": 0,
+        "Name": "face"
+      }
+    ]
+  },
+  {
+    "ReturnParam": 5,
+    "Name": "llSetContentType",
+    "Parameters": [
+      {
+        "Type": 6,
+        "Name": "request_id"
+      },
+      {
+        "Type": 0,
+        "Name": "content_type"
+      }
+    ]
+  },
+  {
+    "ReturnParam": 5,
+    "Name": "llSetDamage",
+    "Parameters": [
+      {
+        "Type": 1,
+        "Name": "damage"
+      }
+    ]
+  },
+  {
+    "ReturnParam": 5,
+    "Name": "llSetForce",
+    "Parameters": [
+      {
+        "Type": 2,
+        "Name": "force"
+      },
+      {
+        "Type": 0,
+        "Name": "local"
+      }
+    ]
+  },
+  {
+    "ReturnParam": 5,
+    "Name": "llSetForceAndTorque",
+    "Parameters": [
+      {
+        "Type": 2,
+        "Name": "force"
+      },
+      {
+        "Type": 2,
+        "Name": "torque"
+      },
+      {
+        "Type": 0,
+        "Name": "local"
+      }
+    ]
+  },
+  {
+    "ReturnParam": 5,
+    "Name": "llSetHoverHeight",
+    "Parameters": [
+      {
+        "Type": 1,
+        "Name": "height"
+      },
+      {
+        "Type": 0,
+        "Name": "water"
+      },
+      {
+        "Type": 1,
+        "Name": "tau"
+      }
+    ]
+  },
+  {
+    "ReturnParam": 5,
+    "Name": "llSetInventoryPermMask",
+    "Parameters": [
+      {
+        "Type": 7,
+        "Name": "item"
+      },
+      {
+        "Type": 0,
+        "Name": "category"
+      },
+      {
+        "Type": 0,
+        "Name": "value"
+      }
+    ]
+  },
+  {
+    "ReturnParam": 5,
+    "Name": "llSetKeyframedMotion",
+    "Parameters": [
+      {
+        "Type": 4,
+        "Name": "keyframes"
+      },
+      {
+        "Type": 4,
+        "Name": "options"
+      }
+    ]
+  },
+  {
+    "ReturnParam": 5,
+    "Name": "llSetLinkAlpha",
+    "Parameters": [
+      {
+        "Type": 0,
+        "Name": "link"
+      },
+      {
+        "Type": 1,
+        "Name": "alpha"
+      },
+      {
+        "Type": 0,
+        "Name": "face"
+      }
+    ]
+  },
+  {
+    "ReturnParam": 5,
+    "Name": "llSetLinkCamera",
+    "Parameters": [
+      {
+        "Type": 0,
+        "Name": "link"
+      },
+      {
+        "Type": 2,
+        "Name": "eye"
+      },
+      {
+        "Type": 2,
+        "Name": "at"
+      }
+    ]
+  },
+  {
+    "ReturnParam": 5,
+    "Name": "llSetLinkColor",
+    "Parameters": [
+      {
+        "Type": 0,
+        "Name": "link"
+      },
+      {
+        "Type": 2,
+        "Name": "color"
+      },
+      {
+        "Type": 0,
+        "Name": "face"
+      }
+    ]
+  },
+  {
+    "ReturnParam": 0,
+    "Name": "llSetLinkMedia",
+    "Parameters": [
+      {
+        "Type": 0,
+        "Name": "link"
+      },
+      {
+        "Type": 0,
+        "Name": "face"
+      },
+      {
+        "Type": 4,
+        "Name": "params"
+      }
+    ]
+  },
+  {
+    "ReturnParam": 5,
+    "Name": "",
+    "Parameters": []
+  },
+  {
+    "ReturnParam": 5,
+    "Name": "",
+    "Parameters": []
+  },
+  {
+    "ReturnParam": 5,
+    "Name": "llSetLinkTexture",
+    "Parameters": [
+      {
+        "Type": 0,
+        "Name": "link"
+      },
+      {
+        "Type": 7,
+        "Name": "texture"
+      },
+      {
+        "Type": 0,
+        "Name": "face"
+      }
+    ]
+  },
+  {
+    "ReturnParam": 5,
+    "Name": "llSetLinkTextureAnim",
+    "Parameters": [
+      {
+        "Type": 0,
+        "Name": "link"
+      },
+      {
+        "Type": 0,
+        "Name": "mode"
+      },
+      {
+        "Type": 0,
+        "Name": "face"
+      },
+      {
+        "Type": 0,
+        "Name": "sizex"
+      },
+      {
+        "Type": 0,
+        "Name": "sizey"
+      },
+      {
+        "Type": 1,
+        "Name": "start"
+      },
+      {
+        "Type": 1,
+        "Name": "length"
+      },
+      {
+        "Type": 1,
+        "Name": "rate"
+      }
+    ]
+  },
+  {
+    "ReturnParam": 5,
+    "Name": "llSetLocalRot",
+    "Parameters": [
+      {
+        "Type": 3,
+        "Name": "rot"
+      }
+    ]
+  },
+  {
+    "ReturnParam": 0,
+    "Name": "llSetMemoryLimit",
+    "Parameters": [
+      {
+        "Type": 0,
+        "Name": "limit"
+      }
+    ]
+  },
+  {
+    "ReturnParam": 5,
+    "Name": "llSetObjectDesc",
+    "Parameters": [
+      {
+        "Type": 7,
+        "Name": "description"
+      }
+    ]
+  },
+  {
+    "ReturnParam": 5,
+    "Name": "llSetObjectName",
+    "Parameters": [
+      {
+        "Type": 7,
+        "Name": "name"
+      }
+    ]
+  },
+  {
+    "ReturnParam": 5,
+    "Name": "llSetObjectPermMask",
+    "Parameters": [
+      {
+        "Type": 0,
+        "Name": "mask"
+      },
+      {
+        "Type": 0,
+        "Name": "value"
+      }
+    ]
+  },
+  {
+    "ReturnParam": 5,
+    "Name": "llSetParcelMusicURL",
+    "Parameters": [
+      {
+        "Type": 7,
+        "Name": "url"
+      }
+    ]
+  },
+  {
+    "ReturnParam": 5,
+    "Name": "llSetPayPrice",
+    "Parameters": [
+      {
+        "Type": 0,
+        "Name": "price"
+      },
+      {
+        "Type": 4,
+        "Name": "quick_pay_buttons"
+      }
+    ]
+  },
+  {
+    "ReturnParam": 5,
+    "Name": "llSetPhysicsMaterial",
+    "Parameters": [
+      {
+        "Type": 0,
+        "Name": "mask"
+      },
+      {
+        "Type": 1,
+        "Name": "gravity_multiplier"
+      },
+      {
+        "Type": 1,
+        "Name": "restitution"
+      },
+      {
+        "Type": 1,
+        "Name": "friction"
+      },
+      {
+        "Type": 1,
+        "Name": "density"
+      }
+    ]
+  },
+  {
+    "ReturnParam": 5,
+    "Name": "llSetPos",
+    "Parameters": [
+      {
+        "Type": 2,
+        "Name": "pos"
+      }
+    ]
+  },
+  {
+    "ReturnParam": 5,
+    "Name": "",
+    "Parameters": []
+  },
+  {
+    "ReturnParam": 0,
+    "Name": "llSetPrimMediaParams",
+    "Parameters": [
+      {
+        "Type": 0,
+        "Name": "face"
+      },
+      {
+        "Type": 4,
+        "Name": "params"
+      }
+    ]
+  },
+  {
+    "ReturnParam": 5,
+    "Name": "llSetPrimURL",
+    "Parameters": [
+      {
+        "Type": 7,
+        "Name": "url"
+      }
+    ]
+  },
+  {
+    "ReturnParam": 0,
+    "Name": "llSetRegionPos",
+    "Parameters": [
+      {
+        "Type": 2,
+        "Name": "position"
+      }
+    ]
+  },
+  {
+    "ReturnParam": 5,
+    "Name": "llSetRemoteScriptAccessPin",
+    "Parameters": [
+      {
+        "Type": 0,
+        "Name": "pin"
+      }
+    ]
+  },
+  {
+    "ReturnParam": 5,
+    "Name": "llSetRot",
+    "Parameters": [
+      {
+        "Type": 3,
+        "Name": "rot"
+      }
+    ]
+  },
+  {
+    "ReturnParam": 5,
+    "Name": "llSetScale",
+    "Parameters": [
+      {
+        "Type": 2,
+        "Name": "size"
+      }
+    ]
+  },
+  {
+    "ReturnParam": 5,
+    "Name": "llSetScriptState",
+    "Parameters": [
+      {
+        "Type": 7,
+        "Name": "name"
+      },
+      {
+        "Type": 0,
+        "Name": "running"
+      }
+    ]
+  },
+  {
+    "ReturnParam": 5,
+    "Name": "llSetSitText",
+    "Parameters": [
+      {
+        "Type": 7,
+        "Name": "text"
+      }
+    ]
+  },
+  {
+    "ReturnParam": 5,
+    "Name": "llSetSoundQueueing",
+    "Parameters": [
+      {
+        "Type": 0,
+        "Name": "queue"
+      }
+    ]
+  },
+  {
+    "ReturnParam": 5,
+    "Name": "llSetSoundRadius",
+    "Parameters": [
+      {
+        "Type": 1,
+        "Name": "radius"
+      }
+    ]
+  },
+  {
+    "ReturnParam": 5,
+    "Name": "llSetStatus",
+    "Parameters": [
+      {
+        "Type": 0,
+        "Name": "status"
+      },
+      {
+        "Type": 0,
+        "Name": "value"
+      }
+    ]
+  },
+  {
+    "ReturnParam": 5,
+    "Name": "llSetText",
+    "Parameters": [
+      {
+        "Type": 7,
+        "Name": "text"
+      },
+      {
+        "Type": 2,
+        "Name": "color"
+      },
+      {
+        "Type": 1,
+        "Name": "alpha"
+      }
+    ]
+  },
+  {
+    "ReturnParam": 5,
+    "Name": "llSetTexture",
+    "Parameters": [
+      {
+        "Type": 7,
+        "Name": "texture"
+      },
+      {
+        "Type": 0,
+        "Name": "face"
+      }
+    ]
+  },
+  {
+    "ReturnParam": 5,
+    "Name": "llSetTextureAnim",
+    "Parameters": [
+      {
+        "Type": 0,
+        "Name": "mode"
+      },
+      {
+        "Type": 0,
+        "Name": "face"
+      },
+      {
+        "Type": 0,
+        "Name": "sizex"
+      },
+      {
+        "Type": 0,
+        "Name": "sizey"
+      },
+      {
+        "Type": 1,
+        "Name": "start"
+      },
+      {
+        "Type": 1,
+        "Name": "length"
+      },
+      {
+        "Type": 1,
+        "Name": "rate"
+      }
+    ]
+  },
+  {
+    "ReturnParam": 5,
+    "Name": "llSetTimerEvent",
+    "Parameters": [
+      {
+        "Type": 1,
+        "Name": "sec"
+      }
+    ]
+  },
+  {
+    "ReturnParam": 5,
+    "Name": "llSetTorque",
+    "Parameters": [
+      {
+        "Type": 2,
+        "Name": "torque"
+      },
+      {
+        "Type": 0,
+        "Name": "local"
+      }
+    ]
+  },
+  {
+    "ReturnParam": 5,
+    "Name": "llSetTouchText",
+    "Parameters": [
+      {
+        "Type": 7,
+        "Name": "text"
+      }
+    ]
+  },
+  {
+    "ReturnParam": 5,
+    "Name": "llSetVehicleFlags",
+    "Parameters": [
+      {
+        "Type": 0,
+        "Name": "flags"
+      }
+    ]
+  },
+  {
+    "ReturnParam": 5,
+    "Name": "llSetVehicleFloatParam",
+    "Parameters": [
+      {
+        "Type": 0,
+        "Name": "param"
+      },
+      {
+        "Type": 1,
+        "Name": "value"
+      }
+    ]
+  },
+  {
+    "ReturnParam": 5,
+    "Name": "llSetVehicleRotationParam",
+    "Parameters": [
+      {
+        "Type": 0,
+        "Name": "param"
+      },
+      {
+        "Type": 3,
+        "Name": "rot"
+      }
+    ]
+  },
+  {
+    "ReturnParam": 5,
+    "Name": "llSetVehicleType",
+    "Parameters": [
+      {
+        "Type": 0,
+        "Name": "type"
+      }
+    ]
+  },
+  {
+    "ReturnParam": 5,
+    "Name": "llSetVehicleVectorParam",
+    "Parameters": [
+      {
+        "Type": 0,
+        "Name": "param"
+      },
+      {
+        "Type": 2,
+        "Name": "vec"
+      }
+    ]
+  },
+  {
+    "ReturnParam": 5,
+    "Name": "llSetVelocity",
+    "Parameters": [
+      {
+        "Type": 2,
+        "Name": "force"
+      },
+      {
+        "Type": 0,
+        "Name": "local"
+      }
+    ]
+  },
+  {
+    "ReturnParam": 7,
+    "Name": "llSHA1String",
+    "Parameters": [
+      {
+        "Type": 7,
+        "Name": "src"
+      }
+    ]
+  },
+  {
+    "ReturnParam": 5,
+    "Name": "llShout",
+    "Parameters": [
+      {
+        "Type": 0,
+        "Name": "channel"
+      },
+      {
+        "Type": 7,
+        "Name": "msg"
+      }
+    ]
+  },
+  {
+    "ReturnParam": 1,
+    "Name": "llSin",
+    "Parameters": [
+      {
+        "Type": 1,
+        "Name": "theta"
+      }
+    ]
+  },
+  {
+    "ReturnParam": 0,
+    "Name": "llSitOnLink",
+    "Parameters": [
+      {
+        "Type": 6,
+        "Name": "agent_id"
+      },
+      {
+        "Type": 0,
+        "Name": "link"
+      }
+    ]
+  },
+  {
+    "ReturnParam": 5,
+    "Name": "llSitTarget",
+    "Parameters": [
+      {
+        "Type": 2,
+        "Name": "offset"
+      },
+      {
+        "Type": 3,
+        "Name": "rot"
+      }
+    ]
+  },
+  {
+    "ReturnParam": 5,
+    "Name": "llSleep",
+    "Parameters": [
+      {
+        "Type": 1,
+        "Name": "sec"
+      }
+    ]
+  },
+  {
+    "ReturnParam": 5,
+    "Name": "llSound",
+    "Parameters": [
+      {
+        "Type": 7,
+        "Name": "sound"
+      },
+      {
+        "Type": 1,
+        "Name": "volume"
+      },
+      {
+        "Type": 0,
+        "Name": "queue"
+      },
+      {
+        "Type": 0,
+        "Name": "loop"
+      }
+    ]
+  },
+  {
+    "ReturnParam": 5,
+    "Name": "llSoundPreload",
+    "Parameters": [
+      {
+        "Type": 7,
+        "Name": "sound"
+      }
+    ]
+  },
+  {
+    "ReturnParam": 1,
+    "Name": "llSqrt",
+    "Parameters": [
+      {
+        "Type": 1,
+        "Name": "val"
+      }
+    ]
+  },
+  {
+    "ReturnParam": 5,
+    "Name": "llStartAnimation",
+    "Parameters": [
+      {
+        "Type": 7,
+        "Name": "anim"
+      }
+    ]
+  },
+  {
+    "ReturnParam": 5,
+    "Name": "llStopAnimation",
+    "Parameters": [
+      {
+        "Type": 7,
+        "Name": "anim"
+      }
+    ]
+  },
+  {
+    "ReturnParam": 5,
+    "Name": "llStopHover",
+    "Parameters": [
+      {
+        "Type": 5,
+        "Name": ""
+      }
+    ]
+  },
+  {
+    "ReturnParam": 5,
+    "Name": "llStopLookAt",
+    "Parameters": [
+      {
+        "Type": 5,
+        "Name": ""
+      }
+    ]
+  },
+  {
+    "ReturnParam": 5,
+    "Name": "llStopMoveToTarget",
+    "Parameters": [
+      {
+        "Type": 5,
+        "Name": ""
+      }
+    ]
+  },
+  {
+    "ReturnParam": 5,
+    "Name": "llStopPointAt",
+    "Parameters": [
+      {
+        "Type": 5,
+        "Name": ""
+      }
+    ]
+  },
+  {
+    "ReturnParam": 5,
+    "Name": "llStopSound",
+    "Parameters": [
+      {
+        "Type": 5,
+        "Name": ""
+      }
+    ]
+  },
+  {
+    "ReturnParam": 0,
+    "Name": "llStringLength",
+    "Parameters": [
+      {
+        "Type": 7,
+        "Name": "str"
+      }
+    ]
+  },
+  {
+    "ReturnParam": 7,
+    "Name": "llStringToBase64",
+    "Parameters": [
+      {
+        "Type": 7,
+        "Name": "str"
+      }
+    ]
+  },
+  {
+    "ReturnParam": 7,
+    "Name": "llStringTrim",
+    "Parameters": [
+      {
+        "Type": 7,
+        "Name": "src"
+      },
+      {
+        "Type": 0,
+        "Name": "type"
+      }
+    ]
+  },
+  {
+    "ReturnParam": 0,
+    "Name": "llSubStringIndex",
+    "Parameters": [
+      {
+        "Type": 7,
+        "Name": "source"
+      },
+      {
+        "Type": 7,
+        "Name": "pattern"
+      }
+    ]
+  },
+  {
+    "ReturnParam": 5,
+    "Name": "llTakeCamera",
+    "Parameters": [
+      {
+        "Type": 6,
+        "Name": "avatar"
+      }
+    ]
+  },
+  {
+    "ReturnParam": 5,
+    "Name": "llTakeControls",
+    "Parameters": [
+      {
+        "Type": 0,
+        "Name": "controls"
+      },
+      {
+        "Type": 0,
+        "Name": "accept"
+      },
+      {
+        "Type": 0,
+        "Name": "pass_on"
+      }
+    ]
+  },
+  {
+    "ReturnParam": 1,
+    "Name": "llTan",
+    "Parameters": [
+      {
+        "Type": 1,
+        "Name": "theta"
+      }
+    ]
+  },
+  {
+    "ReturnParam": 0,
+    "Name": "llTarget",
+    "Parameters": [
+      {
+        "Type": 2,
+        "Name": "position"
+      },
+      {
+        "Type": 1,
+        "Name": "range"
+      }
+    ]
+  },
+  {
+    "ReturnParam": 5,
+    "Name": "llTargetOmega",
+    "Parameters": [
+      {
+        "Type": 2,
+        "Name": "axis"
+      },
+      {
+        "Type": 1,
+        "Name": "spinrate"
+      },
+      {
+        "Type": 1,
+        "Name": "gain"
+      }
+    ]
+  },
+  {
+    "ReturnParam": 5,
+    "Name": "llTargetRemove",
+    "Parameters": [
+      {
+        "Type": 0,
+        "Name": "handle"
+      }
+    ]
+  },
+  {
+    "ReturnParam": 5,
+    "Name": "llTeleportAgent",
+    "Parameters": [
+      {
+        "Type": 6,
+        "Name": "avatar"
+      },
+      {
+        "Type": 7,
+        "Name": "landmark"
+      },
+      {
+        "Type": 2,
+        "Name": "position"
+      },
+      {
+        "Type": 2,
+        "Name": "look_at"
+      }
+    ]
+  },
+  {
+    "ReturnParam": 5,
+    "Name": "llTeleportAgentGlobalCoords",
+    "Parameters": [
+      {
+        "Type": 6,
+        "Name": "agent"
+      },
+      {
+        "Type": 2,
+        "Name": "global_coordinates"
+      },
+      {
+        "Type": 2,
+        "Name": "region_coordinates"
+      },
+      {
+        "Type": 2,
+        "Name": "look_at"
+      }
+    ]
+  },
+  {
+    "ReturnParam": 5,
+    "Name": "llTeleportAgentHome",
+    "Parameters": [
+      {
+        "Type": 6,
+        "Name": "avatar"
+      }
+    ]
+  },
+  {
+    "ReturnParam": 5,
+    "Name": "llTextBox",
+    "Parameters": [
+      {
+        "Type": 6,
+        "Name": "avatar"
+      },
+      {
+        "Type": 7,
+        "Name": "message"
+      },
+      {
+        "Type": 0,
+        "Name": "channel"
+      }
+    ]
+  },
+  {
+    "ReturnParam": 7,
+    "Name": "llToLower",
+    "Parameters": [
+      {
+        "Type": 7,
+        "Name": "src"
+      }
+    ]
+  },
+  {
+    "ReturnParam": 7,
+    "Name": "llToUpper",
+    "Parameters": [
+      {
+        "Type": 7,
+        "Name": "src"
+      }
+    ]
+  },
+  {
+    "ReturnParam": 6,
+    "Name": "llTransferLindenDollars",
+    "Parameters": [
+      {
+        "Type": 6,
+        "Name": "destination"
+      },
+      {
+        "Type": 0,
+        "Name": "amount"
+      }
+    ]
+  },
+  {
+    "ReturnParam": 5,
+    "Name": "llTriggerSound",
+    "Parameters": [
+      {
+        "Type": 7,
+        "Name": "sound"
+      },
+      {
+        "Type": 1,
+        "Name": "volume"
+      }
+    ]
+  },
+  {
+    "ReturnParam": 5,
+    "Name": "llTriggerSoundLimited",
+    "Parameters": [
+      {
+        "Type": 7,
+        "Name": "sound"
+      },
+      {
+        "Type": 1,
+        "Name": "volume"
+      },
+      {
+        "Type": 2,
+        "Name": "top_north_east"
+      },
+      {
+        "Type": 2,
+        "Name": "bottom_south_west"
+      }
+    ]
+  },
+  {
+    "ReturnParam": 7,
+    "Name": "llUnescapeURL",
+    "Parameters": [
+      {
+        "Type": 7,
+        "Name": "url"
+      }
+    ]
+  },
+  {
+    "ReturnParam": 5,
+    "Name": "llUnSit",
+    "Parameters": [
+      {
+        "Type": 6,
+        "Name": "id"
+      }
+    ]
+  },
+  {
+    "ReturnParam": 5,
+    "Name": "llUpdateCharacter",
+    "Parameters": [
+      {
+        "Type": 4,
+        "Name": "options"
+      }
+    ]
+  },
+  {
+    "ReturnParam": 6,
+    "Name": "llUpdateKeyValue",
+    "Parameters": [
+      {
+        "Type": 7,
+        "Name": "k"
+      },
+      {
+        "Type": 7,
+        "Name": "v"
+      },
+      {
+        "Type": 0,
+        "Name": "checked"
+      },
+      {
+        "Type": 7,
+        "Name": "original_value"
+      }
+    ]
+  },
+  {
+    "ReturnParam": 1,
+    "Name": "llVecDist",
+    "Parameters": [
+      {
+        "Type": 2,
+        "Name": "vec_a"
+      },
+      {
+        "Type": 2,
+        "Name": "vec_b"
+      }
+    ]
+  },
+  {
+    "ReturnParam": 1,
+    "Name": "llVecMag",
+    "Parameters": [
+      {
+        "Type": 2,
+        "Name": "vec"
+      }
+    ]
+  },
+  {
+    "ReturnParam": 2,
+    "Name": "llVecNorm",
+    "Parameters": [
+      {
+        "Type": 2,
+        "Name": "vec"
+      }
+    ]
+  },
+  {
+    "ReturnParam": 5,
+    "Name": "llVolumeDetect",
+    "Parameters": [
+      {
+        "Type": 0,
+        "Name": "detect"
+      }
+    ]
+  },
+  {
+    "ReturnParam": 5,
+    "Name": "llWanderWithin",
+    "Parameters": [
+      {
+        "Type": 2,
+        "Name": "origin"
+      },
+      {
+        "Type": 2,
+        "Name": "dist"
+      },
+      {
+        "Type": 4,
+        "Name": "options"
+      }
+    ]
+  },
+  {
+    "ReturnParam": 1,
+    "Name": "llWater",
+    "Parameters": [
+      {
+        "Type": 2,
+        "Name": "offset"
+      }
+    ]
+  },
+  {
+    "ReturnParam": 5,
+    "Name": "llWhisper",
+    "Parameters": [
+      {
+        "Type": 0,
+        "Name": "channel"
+      },
+      {
+        "Type": 7,
+        "Name": "msg"
+      }
+    ]
+  },
+  {
+    "ReturnParam": 2,
+    "Name": "llWind",
+    "Parameters": [
+      {
+        "Type": 2,
+        "Name": "offset"
+      }
+    ]
+  },
+  {
+    "ReturnParam": 7,
+    "Name": "llXorBase64",
+    "Parameters": [
+      {
+        "Type": 7,
+        "Name": "str1"
+      },
+      {
+        "Type": 7,
+        "Name": "str2"
+      }
+    ]
+  },
+  {
+    "ReturnParam": 7,
+    "Name": "llXorBase64Strings",
+    "Parameters": [
+      {
+        "Type": 7,
+        "Name": "str1"
+      },
+      {
+        "Type": 7,
+        "Name": "str2"
+      }
+    ]
+  },
+  {
+    "ReturnParam": 7,
+    "Name": "llXorBase64StringsCorrect",
+    "Parameters": [
+      {
+        "Type": 7,
+        "Name": "str1"
+      },
+      {
+        "Type": 7,
+        "Name": "str2"
+      }
+    ]
+  }
+]

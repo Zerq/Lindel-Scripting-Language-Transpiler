@@ -1,0 +1,43 @@
+﻿<#@ template debug="false" hostspecific="false" language="C#" #>
+<#@ assembly name="System.dll" #>
+<#@ assembly name="System.Core" #>
+<#@ assembly name="C:\Users\Zerq\documents\visual studio 2017\Projects\LSL\ConsoleApp1\bin\Debug\ConsoleApp1.exe" #>
+<#@ assembly name="C:\Users\Zerq\documents\visual studio 2017\Projects\LSL\packages\Newtonsoft.Json.10.0.3\lib\net45\Newtonsoft.Json.dll" #>
+
+
+
+<#@ import namespace="System.Linq" #>
+<#@ import namespace="System.Text" #>
+<#@ import namespace="System.Collections" #>
+<#@ import namespace="System.Collections.Generic" #>
+<#@ import namespace="ConsoleApp1" #>
+
+<#@ import namespace="System.IO" #>
+<#@ output extension=".cs" #>
+
+
+ namespace Codegen {
+
+public class Integer { }
+public class Float { }
+public class Vector { }
+public class Rotation { }
+public class List { }
+public class Void { }
+public class Key { }
+public class String { }
+public class Misc{
+
+<# 
+var funcs = (System.Collections.Generic.List<ConsoleApp1.Funk>)ConsoleApp1.Loader.Load();
+
+funcs.ForEach(n =>{ #>
+public <#= ConsoleApp1.Loader.VOID(n.ReturnParam)  #> <#= n.Name  #> ( <#= string.Join(",",  n.Parameters.Where(p=> !string.IsNullOrEmpty(p.Name)).Select(p => string.Format("{0} {1}", ConsoleApp1.Loader.VOID(p.Type),ConsoleApp1.Loader.SAFE(p.Name))).ToArray())  #>) {
+  throw new System.NotImplementedException("placeholder");
+}
+<#
+});
+#>
+
+}
+}
