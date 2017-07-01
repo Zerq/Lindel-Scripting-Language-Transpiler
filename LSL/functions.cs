@@ -7,81 +7,81 @@
 namespace Codegen
 {
 
-    public class Integer { }
-    public class Float { }
+
+   
+
+
     public class Vector { }
     public class Rotation { }
-    public class Void { }
-
-    public class String { }
+ 
 
     public class Math {
 
-        public static Integer llAbs(Integer val)
+        public static int llAbs(int val)
         {
             throw new System.NotImplementedException("placeholder");
         }
-        public static Float llAcos(Float val)
+        public static float llAcos(float val)
         {
             throw new System.NotImplementedException("placeholder");
         }
-        public static Float llAsin(Float val)
+        public static float llAsin(float val)
         {
             throw new System.NotImplementedException("placeholder");
         }
-        public static Float llAtan2(Float y, Float x)
+        public static float llAtan2(float y, float x)
         {
             throw new System.NotImplementedException("placeholder");
         }
-        public static Float llSqrt(Float val)
+        public static float llSqrt(float val)
         {
             throw new System.NotImplementedException("placeholder");
         }
-        public static Integer llCeil(Float val)
+        public static int llCeil(float val)
         {
             throw new System.NotImplementedException("placeholder");
         }
-        public static Float llLog(Float val)
+        public static float llLog(float val)
         {
             throw new System.NotImplementedException("placeholder");
         }
-        public static Float llLog10(Float val)
+        public static float llLog10(float val)
         {
             throw new System.NotImplementedException("placeholder");
         }
-        public static Float llListStatistics(Integer operation, List src)
+        public static float llListStatistics(int operation, List src)
         {
             throw new System.NotImplementedException("placeholder");
         }
-        public static Integer llRound(Float val)
+        public static int llRound(float val)
         {
             throw new System.NotImplementedException("placeholder");
         }
-        public static Float llFabs(Float val)
+        public static float llFabs(float val)
         {
             throw new System.NotImplementedException("placeholder");
         }
-        public static Integer llFloor(Float val)
+        public static int llFloor(float val)
         {
             throw new System.NotImplementedException("placeholder");
         }
-        public static Float llFrand(Float mag)
+        public static float llFrand(float mag)
         {
             throw new System.NotImplementedException("placeholder");
         }
-        public static Float llPow(Float baze, Float exponent)
+        public static float llPow(float baze, float exponent)
         {
             throw new System.NotImplementedException("placeholder");
         }
-        public static Integer llModPow(Integer a, Integer b, Integer c)
+        public static int llModPow(int a, int b, int c)
         {
             throw new System.NotImplementedException("placeholder");
         }
-        public static Float llCos(Float theta)
+        public static float llCos(float theta)
         {
             throw new System.NotImplementedException("placeholder");
         }
-        public static Float llSin(Float theta)
+        public static float llSin(float theta)
         {
             throw new System.NotImplementedException("placeholder");
         }
@@ -89,54 +89,54 @@ namespace Codegen
 
     public class List {
 
-        public static String llDumpList2String(List src, String separator)
+        public static string llDumpList2string(List src, string separator)
         {
             throw new System.NotImplementedException("placeholder");
         }
 
 
 
-        public static List llCSV2List(String src)
+        public static List llCSV2List(string src)
         {
             throw new System.NotImplementedException("placeholder");
         }
-        public static String llList2CSV(List src)
+        public static string llList2CSV(List src)
         {
             throw new System.NotImplementedException("placeholder");
         }
-        public static Float llList2Float(List src, Integer index)
+        public static float llList2float(List src, int index)
         {
             throw new System.NotImplementedException("placeholder");
         }
-        public static Integer llList2Integer(List src, Integer index)
+        public static int llList2int(List src, int index)
         {
             throw new System.NotImplementedException("placeholder");
         }
-        public static String llList2Json(String type, List values)
+        public static string llList2Json(string type, List values)
         {
             throw new System.NotImplementedException("placeholder");
         }
-        public static Key llList2Key(List src, Integer index)
+        public static Key llList2Key(List src, int index)
         {
             throw new System.NotImplementedException("placeholder");
         }
-        public static List llList2List(List src, Integer start, Integer end)
+        public static List llList2List(List src, int start, int end)
         {
             throw new System.NotImplementedException("placeholder");
         }
-        public static List llList2ListStrided(List src, Integer start, Integer end, Integer stride)
+        public static List llList2ListStrided(List src, int start, int end, int stride)
         {
             throw new System.NotImplementedException("placeholder");
         }
-        public static Rotation llList2Rot(List src, Integer index)
+        public static Rotation llList2Rot(List src, int index)
         {
             throw new System.NotImplementedException("placeholder");
         }
-        public static String llList2String(List src, Integer index)
+        public static string llList2string(List src, int index)
         {
             throw new System.NotImplementedException("placeholder");
         }
-        public static Vector llList2Vector(List src, Integer index)
+        public static Vector llList2Vector(List src, int index)
         {
             throw new System.NotImplementedException("placeholder");
         }
@@ -144,20 +144,20 @@ namespace Codegen
     }
 
     public class Land {
-        public static void llAllowInventoryDrop(Integer add)
+        public static void llAllowInventoryDrop(int add)
         {
             throw new System.NotImplementedException("placeholder");
         }
 
-        public static void llAddToLandBanList(Key avatar, Float hours)
+        public static void llAddToLandBanList(Key avatar, float hours)
         {
             throw new System.NotImplementedException("placeholder");
         }
-        public static void llAddToLandPassList(Key avatar, Float hours)
+        public static void llAddToLandPassList(Key avatar, float hours)
         {
             throw new System.NotImplementedException("placeholder");
         }
-        public static void llTeleportAgent(Key avatar, String landmark, Vector position, Vector look_at)
+        public static void llTeleportAgent(Key avatar, string landmark, Vector position, Vector look_at)
         {
             throw new System.NotImplementedException("placeholder");
         }
@@ -177,7 +177,7 @@ namespace Codegen
         {
             throw new System.NotImplementedException("placeholder");
         }
-        public static void llModifyLand(Integer action, Integer brush)
+        public static void llModifyLand(int action, int brush)
         {
             throw new System.NotImplementedException("placeholder");
         }
@@ -189,11 +189,11 @@ namespace Codegen
         {
             throw new System.NotImplementedException("placeholder");
         }
-        public static Integer llOverMyLand(Key id)
+        public static int llOverMyLand(Key id)
         {
             throw new System.NotImplementedException("placeholder");
         }
-        public static Float llWater(Vector offset)
+        public static float llWater(Vector offset)
         {
             throw new System.NotImplementedException("placeholder");
         }
@@ -201,11 +201,11 @@ namespace Codegen
         {
             throw new System.NotImplementedException("placeholder");
         }
-        public static Float llCloud(Vector offset)
+        public static float llCloud(Vector offset)
         {
             throw new System.NotImplementedException("placeholder");
         }
-        public static Integer llEdgeOfWorld(Vector pos, Vector dir)
+        public static int llEdgeOfWorld(Vector pos, Vector dir)
         {
             throw new System.NotImplementedException("placeholder");
         }
@@ -214,51 +214,51 @@ namespace Codegen
 
     public class Sound
     {
-        public static void llPlaySound(String sound, Float volume)
+        public static void llPlaySound(string sound, float volume)
         {
             throw new System.NotImplementedException("placeholder");
         }
-        public static void llPlaySoundSlave(String sound, Float volume)
+        public static void llPlaySoundSlave(string sound, float volume)
         {
             throw new System.NotImplementedException("placeholder");
         }
-        public static void llPreloadSound(String sound)
+        public static void llPreloadSound(string sound)
         {
             throw new System.NotImplementedException("placeholder");
         }
-        public static void llAdjustSoundVolume(Float volume)
+        public static void llAdjustSoundVolume(float volume)
         {
             throw new System.NotImplementedException("placeholder");
         }
-        public static void llCollisionSound(String impact_sound, Float impact_volume)
+        public static void llCollisionSound(string impact_sound, float impact_volume)
         {
             throw new System.NotImplementedException("placeholder");
         }
-        public static void llLoopSound(String sound, Float volume)
+        public static void llLoopSound(string sound, float volume)
         {
             throw new System.NotImplementedException("placeholder");
         }
-        public static void llLoopSoundMaster(String sound, Float volume)
+        public static void llLoopSoundMaster(string sound, float volume)
         {
             throw new System.NotImplementedException("placeholder");
         }
-        public static void llLoopSoundSlave(String sound, Float volume)
+        public static void llLoopSoundSlave(string sound, float volume)
         {
             throw new System.NotImplementedException("placeholder");
         }
-        public static void llSetSoundQueueing(Integer queue)
+        public static void llSetSoundQueueing(int queue)
         {
             throw new System.NotImplementedException("placeholder");
         }
-        public static void llSetSoundRadius(Float radius)
+        public static void llSetSoundRadius(float radius)
         {
             throw new System.NotImplementedException("placeholder");
         }
-        public static void llSound(String sound, Float volume, Integer queue, Integer loop)
+        public static void llSound(string sound, float volume, int queue, int loop)
         {
             throw new System.NotImplementedException("placeholder");
         }
-        public static void llSoundPreload(String sound)
+        public static void llSoundPreload(string sound)
         {
             throw new System.NotImplementedException("placeholder");
         }
@@ -266,11 +266,11 @@ namespace Codegen
         {
             throw new System.NotImplementedException("placeholder");
         }
-        public static void llTriggerSound(String sound, Float volume)
+        public static void llTriggerSound(string sound, float volume)
         {
             throw new System.NotImplementedException("placeholder");
         }
-        public static void llTriggerSoundLimited(String sound, Float volume, Vector top_north_east, Vector bottom_south_west)
+        public static void llTriggerSoundLimited(string sound, float volume, Vector top_north_east, Vector bottom_south_west)
         {
             throw new System.NotImplementedException("placeholder");
         }
@@ -278,40 +278,40 @@ namespace Codegen
 
     public class Communication
     {
-        public static String llEscapeURL(String url)
+        public static string llEscapeURL(string url)
         {
             throw new System.NotImplementedException("placeholder");
         }
-        public static Integer llListen(Integer channel, String name, Key id, String msg)
+        public static int llListen(int channel, string name, Key id, string msg)
         {
             throw new System.NotImplementedException("placeholder");
         }
-        public static void llWhisper(Integer channel, String msg)
+        public static void llWhisper(int channel, string msg)
         {
             throw new System.NotImplementedException("placeholder");
         }
 
-        public static void llEmail(String address, String subject, String message)
+        public static void llEmail(string address, string subject, string message)
         {
             throw new System.NotImplementedException("placeholder");
         }
-        public static void llSay(Integer channel, String msg)
+        public static void llSay(int channel, string msg)
         {
             throw new System.NotImplementedException("placeholder");
         }
-        public static void llShout(Integer channel, String msg)
+        public static void llShout(int channel, string msg)
         {
             throw new System.NotImplementedException("placeholder");
         }
-        public static void llRegionSay(Integer channel, String msg)
+        public static void llRegionSay(int channel, string msg)
         {
             throw new System.NotImplementedException("placeholder");
         }
-        public static void llRegionSayTo(Key target, Integer channel, String msg)
+        public static void llRegionSayTo(Key target, int channel, string msg)
         {
             throw new System.NotImplementedException("placeholder");
         }
-        public static void llOwnerSay(String msg)
+        public static void llOwnerSay(string msg)
         {
             throw new System.NotImplementedException("placeholder");
         }
@@ -320,7 +320,7 @@ namespace Codegen
         {
             throw new System.NotImplementedException("placeholder");
         }
-        public static void llDialog(Key avatar, String message, List buttons, Integer channel)
+        public static void llDialog(Key avatar, string message, List buttons, int channel)
         {
             throw new System.NotImplementedException("placeholder");
         }
@@ -328,53 +328,53 @@ namespace Codegen
         {
             throw new System.NotImplementedException("placeholder");
         }
-        public static void llRemoteDataReply(Key channel, Key message_id, String sdata, Integer idata)
+        public static void llRemoteDataReply(Key channel, Key message_id, string sdata, int idata)
         {
             throw new System.NotImplementedException("placeholder");
         }
-        public static Key llSendRemoteData(Key channel, String dest, Integer idata, String sdata)
+        public static Key llSendRemoteData(Key channel, string dest, int idata, string sdata)
         {
             throw new System.NotImplementedException("placeholder");
         }
-        public static void llTextBox(Key avatar, String message, Integer channel)
+        public static void llTextBox(Key avatar, string message, int channel)
         {
             throw new System.NotImplementedException("placeholder");
         }
     }
 
     public class Base64 {
-        public static Integer llBase64ToInteger(String str)
+        public static int llBase64Toint(string str)
         {
             throw new System.NotImplementedException("placeholder");
         }
-        public static String llBase64ToString(String str)
+        public static string llBase64Tostring(string str)
         {
             throw new System.NotImplementedException("placeholder");
         }
-        public static String llIntegerToBase64(Integer number)
+        public static string llintToBase64(int number)
         {
             throw new System.NotImplementedException("placeholder");
         }
-        public static String llStringToBase64(String str)
+        public static string llstringToBase64(string str)
         {
             throw new System.NotImplementedException("placeholder");
         }
-        public static String llXorBase64(String str1, String str2)
+        public static string llXorBase64(string str1, string str2)
         {
             throw new System.NotImplementedException("placeholder");
         }
-        public static String llXorBase64Strings(String str1, String str2)
+        public static string llXorBase64strings(string str1, string str2)
         {
             throw new System.NotImplementedException("placeholder");
         }
-        public static String llXorBase64StringsCorrect(String str1, String str2)
+        public static string llXorBase64stringsCorrect(string str1, string str2)
         {
             throw new System.NotImplementedException("placeholder");
         }
     }
 
     public class Spacial {
-        public static Float llAngleBetween(Rotation a, Rotation b)
+        public static float llAngleBetween(Rotation a, Rotation b)
         {
             throw new System.NotImplementedException("placeholder");
         }
@@ -386,7 +386,7 @@ namespace Codegen
         {
             throw new System.NotImplementedException("placeholder");
         }
-        public static Rotation llAxisAngle2Rot(Vector axis, Float angle)
+        public static Rotation llAxisAngle2Rot(Vector axis, float angle)
         {
             throw new System.NotImplementedException("placeholder");
         }
@@ -429,11 +429,11 @@ namespace Codegen
         {
             throw new System.NotImplementedException("placeholder");
         }
-        public static Key llGetInventoryCreator(String item)
+        public static Key llGetInventoryCreator(string item)
         {
             throw new System.NotImplementedException("placeholder");
         }
-        public static Key llGetInventoryKey(String name)
+        public static Key llGetInventoryKey(string name)
         {
             throw new System.NotImplementedException("placeholder");
         }
@@ -457,31 +457,31 @@ namespace Codegen
 
     }
     public class Inventory {
-        public static void llSetInventoryPermMask(String item, Integer category, Integer value)
+        public static void llSetInventoryPermMask(string item, int category, int value)
         {
             throw new System.NotImplementedException("placeholder");
         }
-        public static void llRezAtRoot(String inventory, Vector position, Vector velocity, Rotation rot, Integer param)
+        public static void llRezAtRoot(string inventory, Vector position, Vector velocity, Rotation rot, int param)
         {
             throw new System.NotImplementedException("placeholder");
         }
-        public static void llRezObject(String inventory, Vector pos, Vector vel, Rotation rot, Integer param)
+        public static void llRezObject(string inventory, Vector pos, Vector vel, Rotation rot, int param)
         {
             throw new System.NotImplementedException("placeholder");
         }
-        public static Key llRequestInventoryData(String name)
+        public static Key llRequestInventoryData(string name)
         {
             throw new System.NotImplementedException("placeholder");
         }
-        public static void llRemoveInventory(String item)
+        public static void llRemoveInventory(string item)
         {
             throw new System.NotImplementedException("placeholder");
         }
-        public static void llGiveInventory(Key destination, String inventory)
+        public static void llGiveInventory(Key destination, string inventory)
         {
             throw new System.NotImplementedException("placeholder");
         }
-        public static void llGiveInventoryList(Key target, String folder, List inventory)
+        public static void llGiveInventoryList(Key target, string folder, List inventory)
         {
             throw new System.NotImplementedException("placeholder");
         }
@@ -489,42 +489,42 @@ namespace Codegen
         {
             throw new System.NotImplementedException("placeholder");
         }
-        public static Integer llGiveMoney(Key destination, Integer amount)
+        public static int llGiveMoney(Key destination, int amount)
         {
             throw new System.NotImplementedException("placeholder");
         }
-        public static String llGetInventoryName(Integer type, Integer number)
+        public static string llGetInventoryName(int type, int number)
         {
             throw new System.NotImplementedException("placeholder");
         }
-        public static Integer llGetInventoryNumber(Integer type)
+        public static int llGetInventoryNumber(int type)
         {
             throw new System.NotImplementedException("placeholder");
         }
-        public static Integer llGetInventoryPermMask(String item, Integer category)
+        public static int llGetInventoryPermMask(string item, int category)
         {
             throw new System.NotImplementedException("placeholder");
         }
-        public static Integer llGetInventoryType(String name)
+        public static int llGetInventoryType(string name)
         {
             throw new System.NotImplementedException("placeholder");
         }
 
     }
     public class Physics {
-        public static void llApplyImpulse(Vector momentum, Integer local)
+        public static void llApplyImpulse(Vector momentum, int local)
         {
             throw new System.NotImplementedException("placeholder");
         }
-        public static void llApplyRotationalImpulse(Vector force, Integer local)
+        public static void llApplyRotationalImpulse(Vector force, int local)
         {
             throw new System.NotImplementedException("placeholder");
         }
-        public static void llCollisionFilter(String name, Key id, Integer accept)
+        public static void llCollisionFilter(string name, Key id, int accept)
         {
             throw new System.NotImplementedException("placeholder");
         }
-        public static void llCollisionSprite(String impact_sprite)
+        public static void llCollisionSprite(string impact_sprite)
         {
             throw new System.NotImplementedException("placeholder");
         }
@@ -539,34 +539,34 @@ namespace Codegen
     }
 
     public class Permission {
-        public static Integer llGetPermissions()
+        public static int llGetPermissions()
         {
             throw new System.NotImplementedException("placeholder");
         }
-        public static void llRequestPermissions(Key agent, Integer permissions)
+        public static void llRequestPermissions(Key agent, int permissions)
         {
             throw new System.NotImplementedException("placeholder");
         }
-        public static void llRequestExperiencePermissions(Key agent, String name)
+        public static void llRequestExperiencePermissions(Key agent, string name)
         {
             throw new System.NotImplementedException("placeholder");
         }
     }
 
     public class Agent {
-        public static Integer llAgentInExperience(Key agent)
+        public static int llAgentInExperience(Key agent)
         {
             throw new System.NotImplementedException("placeholder");
         }
-        public static Integer llGetAgentInfo(Key id)
+        public static int llGetAgentInfo(Key id)
         {
             throw new System.NotImplementedException("placeholder");
         }
-        public static String llGetAgentLanguage(Key avatar)
+        public static string llGetAgentLanguage(Key avatar)
         {
             throw new System.NotImplementedException("placeholder");
         }
-        public static List llGetAgentList(Integer scope, List options)
+        public static List llGetAgentList(int scope, List options)
         {
             throw new System.NotImplementedException("placeholder");
         }
@@ -574,11 +574,11 @@ namespace Codegen
         {
             throw new System.NotImplementedException("placeholder");
         }
-        public static Integer llGetRegionAgentCount()
+        public static int llGetRegionAgentCount()
         {
             throw new System.NotImplementedException("placeholder");
         }   
-        public static Key llRequestAgentData(Key id, Integer data)
+        public static Key llRequestAgentData(Key id, int data)
         {
             throw new System.NotImplementedException("placeholder");
         }
@@ -592,71 +592,71 @@ namespace Codegen
         }
     }
     public class Detection {
-        public static Key llDetectedOwner(Integer number)
+        public static Key llDetectedOwner(int number)
         {
             throw new System.NotImplementedException("placeholder");
         }
-        public static Key llDetectedKey(Integer number)
+        public static Key llDetectedKey(int number)
         {
             throw new System.NotImplementedException("placeholder");
         }
-        public static void llVolumeDetect(Integer detect)
+        public static void llVolumeDetect(int detect)
         {
             throw new System.NotImplementedException("placeholder");
         }
-        public static Vector llDetectedGrab(Integer number)
+        public static Vector llDetectedGrab(int number)
         {
             throw new System.NotImplementedException("placeholder");
         }
-        public static Integer llDetectedGroup(Integer number)
+        public static int llDetectedGroup(int number)
         {
             throw new System.NotImplementedException("placeholder");
         }
-        public static Integer llDetectedLinkNumber(Integer number)
+        public static int llDetectedLinkNumber(int number)
         {
             throw new System.NotImplementedException("placeholder");
         }
-        public static String llDetectedName(Integer item)
+        public static string llDetectedName(int item)
         {
             throw new System.NotImplementedException("placeholder");
         }
-        public static Vector llDetectedPos(Integer number)
+        public static Vector llDetectedPos(int number)
         {
             throw new System.NotImplementedException("placeholder");
         }
-        public static Rotation llDetectedRot(Integer number)
+        public static Rotation llDetectedRot(int number)
         {
             throw new System.NotImplementedException("placeholder");
         }
-        public static Vector llDetectedTouchBinormal(Integer index)
+        public static Vector llDetectedTouchBinormal(int index)
         {
             throw new System.NotImplementedException("placeholder");
         }
-        public static Integer llDetectedTouchFace(Integer index)
+        public static int llDetectedTouchFace(int index)
         {
             throw new System.NotImplementedException("placeholder");
         }
-        public static Vector llDetectedTouchNormal(Integer index)
+        public static Vector llDetectedTouchNormal(int index)
         {
             throw new System.NotImplementedException("placeholder");
         }
-        public static Vector llDetectedTouchPos(Integer index)
+        public static Vector llDetectedTouchPos(int index)
         {
             throw new System.NotImplementedException("placeholder");
         }
-        public static Vector llDetectedTouchST(Integer index)
+        public static Vector llDetectedTouchST(int index)
         {
             throw new System.NotImplementedException("placeholder");
         }
-        public static Vector llDetectedTouchUV(Integer index)
+        public static Vector llDetectedTouchUV(int index)
         {
             throw new System.NotImplementedException("placeholder");
         }
-        public static Integer llDetectedType(Integer number)
+        public static int llDetectedType(int number)
         {
             throw new System.NotImplementedException("placeholder");
         }
-        public static Vector llDetectedVel(Integer number)
+        public static Vector llDetectedVel(int number)
         {
             throw new System.NotImplementedException("placeholder");
         }
@@ -664,15 +664,15 @@ namespace Codegen
     public  class Misc
     {
  
-        public static void llAttachToAvatar(Integer attach_point)
+        public static void llAttachToAvatar(int attach_point)
         {
             throw new System.NotImplementedException("placeholder");
         }
-        public static void llAttachToAvatarTemp(Integer attach_point)
+        public static void llAttachToAvatarTemp(int attach_point)
         {
             throw new System.NotImplementedException("placeholder");
         }
-        public static Key llAvatarOnLinkSitTarget(Integer link)
+        public static Key llAvatarOnLinkSitTarget(int link)
         {
             throw new System.NotImplementedException("placeholder");
         }
@@ -684,7 +684,7 @@ namespace Codegen
         {
             throw new System.NotImplementedException("placeholder");
         }
-        public static void llBreakLink(Integer link)
+        public static void llBreakLink(int link)
         {
             throw new System.NotImplementedException("placeholder");
         }
@@ -696,11 +696,11 @@ namespace Codegen
         {
             throw new System.NotImplementedException("placeholder");
         }
-        public static Integer llClearLinkMedia(Integer link, Integer face)
+        public static int llClearLinkMedia(int link, int face)
         {
             throw new System.NotImplementedException("placeholder");
         }
-        public static Integer llClearPrimMedia(Integer face)
+        public static int llClearPrimMedia(int face)
         {
             throw new System.NotImplementedException("placeholder");
         }
@@ -709,11 +709,11 @@ namespace Codegen
         {
             throw new System.NotImplementedException("placeholder");
         }
-        public static Key llCreateKeyValue(String k, String v)
+        public static Key llCreateKeyValue(string k, string v)
         {
             throw new System.NotImplementedException("placeholder");
         }
-        public static void llCreateLink(Key target, Integer parent)
+        public static void llCreateLink(Key target, int parent)
         {
             throw new System.NotImplementedException("placeholder");
         }
@@ -726,15 +726,15 @@ namespace Codegen
         {
             throw new System.NotImplementedException("placeholder");
         }
-        public static Key llDeleteKeyValue(String k)
+        public static Key llDeleteKeyValue(string k)
         {
             throw new System.NotImplementedException("placeholder");
         }
-        public static List llDeleteSubList(List src, Integer start, Integer end)
+        public static List llDeleteSubList(List src, int start, int end)
         {
             throw new System.NotImplementedException("placeholder");
         }
-        public static String llDeleteSubString(String src, Integer start, Integer end)
+        public static string llDeleteSubstring(string src, int start, int end)
         {
             throw new System.NotImplementedException("placeholder");
         }
@@ -755,32 +755,32 @@ namespace Codegen
         {
             throw new System.NotImplementedException("placeholder");
         }
-        public static void llExecCharacterCmd(Integer command, List options)
+        public static void llExecCharacterCmd(int command, List options)
         {
             throw new System.NotImplementedException("placeholder");
         }
 
-        public static void llFleeFrom(Vector position, Float distance, List options)
+        public static void llFleeFrom(Vector position, float distance, List options)
         {
             throw new System.NotImplementedException("placeholder");
         }
     
-        public static void llForceMouselook(Integer mouselook)
+        public static void llForceMouselook(int mouselook)
         {
             throw new System.NotImplementedException("placeholder");
         }
 
      
 
-        public static Float llGetAlpha(Integer face)
+        public static float llGetAlpha(int face)
         {
             throw new System.NotImplementedException("placeholder");
         }
-        public static Float llGetAndResetTime()
+        public static float llGetAndResetTime()
         {
             throw new System.NotImplementedException("placeholder");
         }
-        public static String llGetAnimation(Key id)
+        public static string llGetAnimation(Key id)
         {
             throw new System.NotImplementedException("placeholder");
         }
@@ -788,11 +788,11 @@ namespace Codegen
         {
             throw new System.NotImplementedException("placeholder");
         }
-        public static String llGetAnimationOverride(String anim_state)
+        public static string llGetAnimationOverride(string anim_state)
         {
             throw new System.NotImplementedException("placeholder");
         }
-        public static Integer llGetAttached()
+        public static int llGetAttached()
         {
             throw new System.NotImplementedException("placeholder");
         }
@@ -817,24 +817,24 @@ namespace Codegen
         {
             throw new System.NotImplementedException("placeholder");
         }
-        public static Vector llGetColor(Integer face)
+        public static Vector llGetColor(int face)
         {
             throw new System.NotImplementedException("placeholder");
         }
     
-        public static String llGetDate()
+        public static string llGetDate()
         {
             throw new System.NotImplementedException("placeholder");
         }
-        public static String llGetDisplayName(Key id)
+        public static string llGetDisplayName(Key id)
         {
             throw new System.NotImplementedException("placeholder");
         }
-        public static Float llGetEnergy()
+        public static float llGetEnergy()
         {
             throw new System.NotImplementedException("placeholder");
         }
-        public static String llGetEnv(String name)
+        public static string llGetEnv(string name)
         {
             throw new System.NotImplementedException("placeholder");
         }
@@ -842,7 +842,7 @@ namespace Codegen
         {
             throw new System.NotImplementedException("placeholder");
         }
-        public static String llGetExperienceErrorMessage(Integer error)
+        public static string llGetExperienceErrorMessage(int error)
         {
             throw new System.NotImplementedException("placeholder");
         }
@@ -850,11 +850,11 @@ namespace Codegen
         {
             throw new System.NotImplementedException("placeholder");
         }
-        public static Integer llGetFreeMemory()
+        public static int llGetFreeMemory()
         {
             throw new System.NotImplementedException("placeholder");
         }
-        public static Integer llGetFreeURLs()
+        public static int llGetFreeURLs()
         {
             throw new System.NotImplementedException("placeholder");
         }
@@ -862,86 +862,86 @@ namespace Codegen
         {
             throw new System.NotImplementedException("placeholder");
         }
-        public static Float llGetGMTclock()
+        public static float llGetGMTclock()
         {
             throw new System.NotImplementedException("placeholder");
         }
-        public static String llGetHTTPHeader(Key request_id, String header)
+        public static string llGetHTTPHeader(Key request_id, string header)
         {
             throw new System.NotImplementedException("placeholder");
         }
 
 
-        public static Key llGetLinkKey(Integer link)
+        public static Key llGetLinkKey(int link)
         {
             throw new System.NotImplementedException("placeholder");
         }
-        public static List llGetLinkMedia(Integer link, Integer face, List paramz)
+        public static List llGetLinkMedia(int link, int face, List paramz)
         {
             throw new System.NotImplementedException("placeholder");
         }
-        public static String llGetLinkName(Integer link)
+        public static string llGetLinkName(int link)
         {
             throw new System.NotImplementedException("placeholder");
         }
-        public static Integer llGetLinkNumber()
+        public static int llGetLinkNumber()
         {
             throw new System.NotImplementedException("placeholder");
         }
-        public static Integer llGetLinkNumberOfSides(Integer link)
+        public static int llGetLinkNumberOfSides(int link)
         {
             throw new System.NotImplementedException("placeholder");
         }
-        public static Integer llGetListEntryType(List src, Integer index)
+        public static int llGetListEntryType(List src, int index)
         {
             throw new System.NotImplementedException("placeholder");
         }
-        public static Integer llGetListLength(List src)
+        public static int llGetListLength(List src)
         {
             throw new System.NotImplementedException("placeholder");
         }
        
-        public static Float llGetMass()
+        public static float llGetMass()
         {
             throw new System.NotImplementedException("placeholder");
         }
-        public static Float llGetMassMKS()
+        public static float llGetMassMKS()
         {
             throw new System.NotImplementedException("placeholder");
         }
-        public static Float llGetMaxScaleFactor()
+        public static float llGetMaxScaleFactor()
         {
             throw new System.NotImplementedException("placeholder");
         }
-        public static Integer llGetMemoryLimit()
+        public static int llGetMemoryLimit()
         {
             throw new System.NotImplementedException("placeholder");
         }
-        public static Float llGetMinScaleFactor()
+        public static float llGetMinScaleFactor()
         {
             throw new System.NotImplementedException("placeholder");
         }
-        public static void llGetNextEmail(String address, String subject)
+        public static void llGetNextEmail(string address, string subject)
         {
             throw new System.NotImplementedException("placeholder");
         }
-        public static Key llGetNotecardLine(String name, Integer line)
+        public static Key llGetNotecardLine(string name, int line)
         {
             throw new System.NotImplementedException("placeholder");
         }
-        public static Key llGetNumberOfNotecardLines(String name)
+        public static Key llGetNumberOfNotecardLines(string name)
         {
             throw new System.NotImplementedException("placeholder");
         }
-        public static Integer llGetNumberOfPrims()
+        public static int llGetNumberOfPrims()
         {
             throw new System.NotImplementedException("placeholder");
         }
-        public static Integer llGetNumberOfSides()
+        public static int llGetNumberOfSides()
         {
             throw new System.NotImplementedException("placeholder");
         }
-        public static String llGetObjectDesc()
+        public static string llGetObjectDesc()
         {
             throw new System.NotImplementedException("placeholder");
         }
@@ -949,19 +949,19 @@ namespace Codegen
         {
             throw new System.NotImplementedException("placeholder");
         }
-        public static Float llGetObjectMass(Key id)
+        public static float llGetObjectMass(Key id)
         {
             throw new System.NotImplementedException("placeholder");
         }
-        public static String llGetObjectName()
+        public static string llGetObjectName()
         {
             throw new System.NotImplementedException("placeholder");
         }
-        public static Integer llGetObjectPermMask(Integer category)
+        public static int llGetObjectPermMask(int category)
         {
             throw new System.NotImplementedException("placeholder");
         }
-        public static Integer llGetObjectPrimCount(Key prim)
+        public static int llGetObjectPrimCount(Key prim)
         {
             throw new System.NotImplementedException("placeholder");
         }
@@ -974,19 +974,19 @@ namespace Codegen
         {
             throw new System.NotImplementedException("placeholder");
         }
-        public static Integer llGetParcelFlags(Vector pos)
+        public static int llGetParcelFlags(Vector pos)
         {
             throw new System.NotImplementedException("placeholder");
         }
-        public static Integer llGetParcelMaxPrims(Vector pos, Integer sim_wide)
+        public static int llGetParcelMaxPrims(Vector pos, int sim_wide)
         {
             throw new System.NotImplementedException("placeholder");
         }
-        public static String llGetParcelMusicURL()
+        public static string llGetParcelMusicURL()
         {
             throw new System.NotImplementedException("placeholder");
         }
-        public static Integer llGetParcelPrimCount(Vector pos, Integer category, Integer sim_wide)
+        public static int llGetParcelPrimCount(Vector pos, int category, int sim_wide)
         {
             throw new System.NotImplementedException("placeholder");
         }
@@ -1000,7 +1000,7 @@ namespace Codegen
             throw new System.NotImplementedException("placeholder");
         }
         
-        public static List llGetPrimMediaParams(Integer face, List paramz)
+        public static List llGetPrimMediaParams(int face, List paramz)
         {
             throw new System.NotImplementedException("placeholder");
         }
@@ -1009,56 +1009,56 @@ namespace Codegen
         {
             throw new System.NotImplementedException("placeholder");
         }
-        public static Integer llGetRegionFlags()
+        public static int llGetRegionFlags()
         {
             throw new System.NotImplementedException("placeholder");
         }
-        public static Float llGetRegionFPS()
+        public static float llGetRegionFPS()
         {
             throw new System.NotImplementedException("placeholder");
         }
-        public static String llGetRegionName()
+        public static string llGetRegionName()
         {
             throw new System.NotImplementedException("placeholder");
         }
-        public static Float llGetRegionTimeDilation()
+        public static float llGetRegionTimeDilation()
         {
             throw new System.NotImplementedException("placeholder");
         }
     
-        public static String llGetScriptName()
+        public static string llGetScriptName()
         {
             throw new System.NotImplementedException("placeholder");
         }
-        public static Integer llGetScriptState(String script)
+        public static int llGetScriptState(string script)
         {
             throw new System.NotImplementedException("placeholder");
         }
-        public static Float llGetSimStats(Integer stat_type)
+        public static float llGetSimStats(int stat_type)
         {
             throw new System.NotImplementedException("placeholder");
         }
-        public static String llGetSimulatorHostname()
+        public static string llGetSimulatorHostname()
         {
             throw new System.NotImplementedException("placeholder");
         }
-        public static Integer llGetSPMaxMemory()
+        public static int llGetSPMaxMemory()
         {
             throw new System.NotImplementedException("placeholder");
         }
-        public static Integer llGetStartParameter()
+        public static int llGetStartParameter()
         {
             throw new System.NotImplementedException("placeholder");
         }
-        public static List llGetStaticPath(Vector start, Vector end, Float radius, List paramz)
+        public static List llGetStaticPath(Vector start, Vector end, float radius, List paramz)
         {
             throw new System.NotImplementedException("placeholder");
         }
-        public static Integer llGetStatus(Integer status)
+        public static int llGetStatus(int status)
         {
             throw new System.NotImplementedException("placeholder");
         }
-        public static String llGetSubString(String src, Integer start, Integer end)
+        public static string llGetSubstring(string src, int start, int end)
         {
             throw new System.NotImplementedException("placeholder");
         }
@@ -1066,31 +1066,31 @@ namespace Codegen
         {
             throw new System.NotImplementedException("placeholder");
         }
-        public static String llGetTexture(Integer face)
+        public static string llGetTexture(int face)
         {
             throw new System.NotImplementedException("placeholder");
         }
-        public static Vector llGetTextureOffset(Integer face)
+        public static Vector llGetTextureOffset(int face)
         {
             throw new System.NotImplementedException("placeholder");
         }
-        public static Float llGetTextureRot(Integer face)
+        public static float llGetTextureRot(int face)
         {
             throw new System.NotImplementedException("placeholder");
         }
-        public static Vector llGetTextureScale(Integer face)
+        public static Vector llGetTextureScale(int face)
         {
             throw new System.NotImplementedException("placeholder");
         }
-        public static Float llGetTime()
+        public static float llGetTime()
         {
             throw new System.NotImplementedException("placeholder");
         }
-        public static Float llGetTimeOfDay()
+        public static float llGetTimeOfDay()
         {
             throw new System.NotImplementedException("placeholder");
         }
-        public static String llGetTimestamp()
+        public static string llGetTimestamp()
         {
             throw new System.NotImplementedException("placeholder");
         }
@@ -1098,15 +1098,15 @@ namespace Codegen
         {
             throw new System.NotImplementedException("placeholder");
         }
-        public static Integer llGetUnixTime()
+        public static int llGetUnixTime()
         {
             throw new System.NotImplementedException("placeholder");
         }
-        public static Integer llGetUsedMemory()
+        public static int llGetUsedMemory()
         {
             throw new System.NotImplementedException("placeholder");
         }
-        public static String llGetUsername(Key id)
+        public static string llGetUsername(Key id)
         {
             throw new System.NotImplementedException("placeholder");
         }
@@ -1114,12 +1114,12 @@ namespace Codegen
         {
             throw new System.NotImplementedException("placeholder");
         }
-        public static Float llGetWallclock()
+        public static float llGetWallclock()
         {
             throw new System.NotImplementedException("placeholder");
         }
         
-        public static Float llGround(Vector offset)
+        public static float llGround(Vector offset)
         {
             throw new System.NotImplementedException("placeholder");
         }
@@ -1131,7 +1131,7 @@ namespace Codegen
         {
             throw new System.NotImplementedException("placeholder");
         }
-        public static void llGroundRepel(Float height, Integer water, Float tau)
+        public static void llGroundRepel(float height, int water, float tau)
         {
             throw new System.NotImplementedException("placeholder");
         }
@@ -1139,40 +1139,40 @@ namespace Codegen
         {
             throw new System.NotImplementedException("placeholder");
         }
-        public static Key llHTTPRequest(String url, List parameters, String body)
+        public static Key llHTTPRequest(string url, List parameters, string body)
         {
             throw new System.NotImplementedException("placeholder");
         }
-        public static void llHTTPResponse(Key request_id, Integer status, String body)
+        public static void llHTTPResponse(Key request_id, int status, string body)
         {
             throw new System.NotImplementedException("placeholder");
         }
-        public static String llInsertString(String dst, Integer pos, String src)
+        public static string llInsertstring(string dst, int pos, string src)
         {
             throw new System.NotImplementedException("placeholder");
         }
-        public static void llInstantMessage(Key user, String message)
+        public static void llInstantMessage(Key user, string message)
         {
             throw new System.NotImplementedException("placeholder");
         }
 
-        public static List llJson2List(String src)
+        public static List llJson2List(string src)
         {
             throw new System.NotImplementedException("placeholder");
         }
-        public static String llJsonGetValue(String json, List specifiers)
+        public static string llJsonGetValue(string json, List specifiers)
         {
             throw new System.NotImplementedException("placeholder");
         }
-        public static String llJsonSetValue(String json, List specifiers, String value)
+        public static string llJsonSetValue(string json, List specifiers, string value)
         {
             throw new System.NotImplementedException("placeholder");
         }
-        public static String llJsonValueType(String json, List specifiers)
+        public static string llJsonValueType(string json, List specifiers)
         {
             throw new System.NotImplementedException("placeholder");
         }
-        public static String llKey2Name(Key id)
+        public static string llKey2Name(Key id)
         {
             throw new System.NotImplementedException("placeholder");
         }
@@ -1180,93 +1180,93 @@ namespace Codegen
         {
             throw new System.NotImplementedException("placeholder");
         }
-        public static Key llKeysKeyValue(Integer first, Integer count)
+        public static Key llKeysKeyValue(int first, int count)
         {
             throw new System.NotImplementedException("placeholder");
         }
-        public static void llLinkSitTarget(Integer link, Vector offset, Rotation rot)
+        public static void llLinkSitTarget(int link, Vector offset, Rotation rot)
         {
             throw new System.NotImplementedException("placeholder");
         }
     
-        public static void llListenControl(Integer handle, Integer active)
+        public static void llListenControl(int handle, int active)
         {
             throw new System.NotImplementedException("placeholder");
         }
-        public static void llListenRemove(Integer handle)
+        public static void llListenRemove(int handle)
         {
             throw new System.NotImplementedException("placeholder");
         }
-        public static Integer llListFindList(List src, List test)
+        public static int llListFindList(List src, List test)
         {
             throw new System.NotImplementedException("placeholder");
         }
-        public static List llListInsertList(List dest, List src, Integer start)
+        public static List llListInsertList(List dest, List src, int start)
         {
             throw new System.NotImplementedException("placeholder");
         }
-        public static List llListRandomize(List src, Integer stride)
+        public static List llListRandomize(List src, int stride)
         {
             throw new System.NotImplementedException("placeholder");
         }
-        public static List llListReplaceList(List dest, List src, Integer start, Integer end)
+        public static List llListReplaceList(List dest, List src, int start, int end)
         {
             throw new System.NotImplementedException("placeholder");
         }
-        public static List llListSort(List src, Integer stride, Integer ascending)
+        public static List llListSort(List src, int stride, int ascending)
         {
             throw new System.NotImplementedException("placeholder");
         }
 
-        public static void llLoadURL(Key avatar, String message, String url)
+        public static void llLoadURL(Key avatar, string message, string url)
         {
             throw new System.NotImplementedException("placeholder");
         }
  
-        public static void llLookAt(Vector target, Float strength, Float damping)
+        public static void llLookAt(Vector target, float strength, float damping)
         {
             throw new System.NotImplementedException("placeholder");
         }
        
-        public static void llMakeExplosion(Integer particles, Float scale, Float vel, Float lifetime, Float arc, String texture, Vector offset)
+        public static void llMakeExplosion(int particles, float scale, float vel, float lifetime, float arc, string texture, Vector offset)
         {
             throw new System.NotImplementedException("placeholder");
         }
-        public static void llMakeFire(Integer particles, Float scale, Float vel, Float lifetime, Float arc, String texture, Vector offset)
+        public static void llMakeFire(int particles, float scale, float vel, float lifetime, float arc, string texture, Vector offset)
         {
             throw new System.NotImplementedException("placeholder");
         }
-        public static void llMakeFountain(Integer particles, Float scale, Float vel, Float lifetime, Float arc, Integer bounce, String texture, Vector offset, Float bounce_offset)
+        public static void llMakeFountain(int particles, float scale, float vel, float lifetime, float arc, int bounce, string texture, Vector offset, float bounce_offset)
         {
             throw new System.NotImplementedException("placeholder");
         }
-        public static void llMakeSmoke(Integer particles, Float scale, Float vel, Float lifetime, Float arc, String texture, Vector offset)
+        public static void llMakeSmoke(int particles, float scale, float vel, float lifetime, float arc, string texture, Vector offset)
         {
             throw new System.NotImplementedException("placeholder");
         }
-        public static Integer llManageEstateAccess(Integer action, Key avatar)
+        public static int llManageEstateAccess(int action, Key avatar)
         {
             throw new System.NotImplementedException("placeholder");
         }
-        public static void llMapDestination(String simname, Vector pos, Vector look_at)
+        public static void llMapDestination(string simname, Vector pos, Vector look_at)
         {
             throw new System.NotImplementedException("placeholder");
         }
-        public static String llMD5String(String src, Integer nonce)
+        public static string llMD5string(string src, int nonce)
         {
             throw new System.NotImplementedException("placeholder");
         }
-        public static void llMessageLinked(Integer link, Integer num, String str, Key id)
+        public static void llMessageLinked(int link, int num, string str, Key id)
         {
             throw new System.NotImplementedException("placeholder");
         }
-        public static void llMinEventDelay(Float delay)
+        public static void llMinEventDelay(float delay)
         {
             throw new System.NotImplementedException("placeholder");
         }
    
 
-        public static void llMoveToTarget(Vector target, Float tau)
+        public static void llMoveToTarget(Vector target, float tau)
         {
             throw new System.NotImplementedException("placeholder");
         }
@@ -1274,7 +1274,7 @@ namespace Codegen
         {
             throw new System.NotImplementedException("placeholder");
         }
-        public static void llOffsetTexture(Float u, Float v, Integer face)
+        public static void llOffsetTexture(float u, float v, int face)
         {
             throw new System.NotImplementedException("placeholder");
         }
@@ -1287,19 +1287,19 @@ namespace Codegen
         {
             throw new System.NotImplementedException("placeholder");
         }
-        public static List llParseString2List(String src, List separators, List spacers)
+        public static List llParsestring2List(string src, List separators, List spacers)
         {
             throw new System.NotImplementedException("placeholder");
         }
-        public static List llParseStringKeepNulls(String src, List separators, List spacers)
+        public static List llParsestringKeepNulls(string src, List separators, List spacers)
         {
             throw new System.NotImplementedException("placeholder");
         }
-        public static void llPassCollisions(Integer pass)
+        public static void llPassCollisions(int pass)
         {
             throw new System.NotImplementedException("placeholder");
         }
-        public static void llPassTouches(Integer pass)
+        public static void llPassTouches(int pass)
         {
             throw new System.NotImplementedException("placeholder");
         }
@@ -1317,11 +1317,11 @@ namespace Codegen
         {
             throw new System.NotImplementedException("placeholder");
         }
-        public static void llPushObject(Key target, Vector impulse, Vector ang_impulse, Integer local)
+        public static void llPushObject(Key target, Vector impulse, Vector ang_impulse, int local)
         {
             throw new System.NotImplementedException("placeholder");
         }
-        public static Key llReadKeyValue(String k)
+        public static Key llReadKeyValue(string k)
         {
             throw new System.NotImplementedException("placeholder");
         }
@@ -1338,7 +1338,7 @@ namespace Codegen
         {
             throw new System.NotImplementedException("placeholder");
         }
-        public static void llReleaseURL(String url)
+        public static void llReleaseURL(string url)
         {
             throw new System.NotImplementedException("placeholder");
         }
@@ -1347,17 +1347,17 @@ namespace Codegen
         {
             throw new System.NotImplementedException("placeholder");
         }
-        public static void llRemoteLoadScript(Key target, String name, Integer running, Integer start_param)
+        public static void llRemoteLoadScript(Key target, string name, int running, int start_param)
         {
             throw new System.NotImplementedException("placeholder");
         }
-        public static void llRemoteLoadScriptPin(Key target, String name, Integer pin, Integer running, Integer start_param)
+        public static void llRemoteLoadScriptPin(Key target, string name, int pin, int running, int start_param)
         {
             throw new System.NotImplementedException("placeholder");
         }
 
      
-        public static void llRemoveVehicleFlags(Integer flags)
+        public static void llRemoveVehicleFlags(int flags)
         {
             throw new System.NotImplementedException("placeholder");
         }
@@ -1373,7 +1373,7 @@ namespace Codegen
         {
             throw new System.NotImplementedException("placeholder");
         }
-        public static Key llRequestSimulatorData(String region, Integer data)
+        public static Key llRequestSimulatorData(string region, int data)
         {
             throw new System.NotImplementedException("placeholder");
         }
@@ -1385,14 +1385,14 @@ namespace Codegen
         {
             throw new System.NotImplementedException("placeholder");
         }
-        public static void llResetAnimationOverride(String anim_state)
+        public static void llResetAnimationOverride(string anim_state)
         {
             throw new System.NotImplementedException("placeholder");
         }
       
 
 
-        public static void llResetOtherScript(String name)
+        public static void llResetOtherScript(string name)
         {
             throw new System.NotImplementedException("placeholder");
         }
@@ -1404,16 +1404,16 @@ namespace Codegen
         {
             throw new System.NotImplementedException("placeholder");
         }
-        public static Integer llReturnObjectsByID(List objects)
+        public static int llReturnObjectsByID(List objects)
         {
             throw new System.NotImplementedException("placeholder");
         }
-        public static Integer llReturnObjectsByOwner(Key owner, Integer scope)
+        public static int llReturnObjectsByOwner(Key owner, int scope)
         {
             throw new System.NotImplementedException("placeholder");
         }
 
-        public static Float llRot2Angle(Rotation rot)
+        public static float llRot2Angle(Rotation rot)
         {
             throw new System.NotImplementedException("placeholder");
         }
@@ -1437,7 +1437,7 @@ namespace Codegen
         {
             throw new System.NotImplementedException("placeholder");
         }
-        public static void llRotateTexture(Float angle, Integer face)
+        public static void llRotateTexture(float angle, int face)
         {
             throw new System.NotImplementedException("placeholder");
         }
@@ -1445,42 +1445,42 @@ namespace Codegen
         {
             throw new System.NotImplementedException("placeholder");
         }
-        public static void llRotLookAt(Rotation target_direction, Float strength, Float damping)
+        public static void llRotLookAt(Rotation target_direction, float strength, float damping)
         {
             throw new System.NotImplementedException("placeholder");
         }
-        public static Integer llRotTarget(Rotation rot, Float error)
+        public static int llRotTarget(Rotation rot, float error)
         {
             throw new System.NotImplementedException("placeholder");
         }
-        public static void llRotTargetRemove(Integer handle)
+        public static void llRotTargetRemove(int handle)
         {
             throw new System.NotImplementedException("placeholder");
         }
 
-        public static Integer llSameGroup(Key uuid)
+        public static int llSameGroup(Key uuid)
         {
             throw new System.NotImplementedException("placeholder");
         }
        
-        public static Integer llScaleByFactor(Float scaling_factor)
+        public static int llScaleByFactor(float scaling_factor)
         {
             throw new System.NotImplementedException("placeholder");
         }
-        public static void llScaleTexture(Float u, Float v, Integer face)
+        public static void llScaleTexture(float u, float v, int face)
         {
             throw new System.NotImplementedException("placeholder");
         }
-        public static Integer llScriptDanger(Vector pos)
+        public static int llScriptDanger(Vector pos)
         {
             throw new System.NotImplementedException("placeholder");
         }
-        public static void llScriptProfiler(Integer flags)
+        public static void llScriptProfiler(int flags)
         {
             throw new System.NotImplementedException("placeholder");
         }
      
-        public static void llSensor(String name, Key id, Integer type, Float radius, Float arc)
+        public static void llSensor(string name, Key id, int type, float radius, float arc)
         {
             throw new System.NotImplementedException("placeholder");
         }
@@ -1488,23 +1488,23 @@ namespace Codegen
         {
             throw new System.NotImplementedException("placeholder");
         }
-        public static void llSensorRepeat(String name, Key id, Integer type, Float range, Float arc, Float rate)
+        public static void llSensorRepeat(string name, Key id, int type, float range, float arc, float rate)
         {
             throw new System.NotImplementedException("placeholder");
         }
-        public static void llSetAlpha(Float alpha, Integer face)
+        public static void llSetAlpha(float alpha, int face)
         {
             throw new System.NotImplementedException("placeholder");
         }
-        public static void llSetAngularVelocity(Vector initial_omega, Integer local)
+        public static void llSetAngularVelocity(Vector initial_omega, int local)
         {
             throw new System.NotImplementedException("placeholder");
         }
-        public static void llSetAnimationOverride(String anim_state, String anim)
+        public static void llSetAnimationOverride(string anim_state, string anim)
         {
             throw new System.NotImplementedException("placeholder");
         }
-        public static void llSetBuoyancy(Float buoyancy)
+        public static void llSetBuoyancy(float buoyancy)
         {
             throw new System.NotImplementedException("placeholder");
         }
@@ -1520,31 +1520,31 @@ namespace Codegen
         {
             throw new System.NotImplementedException("placeholder");
         }
-        public static void llSetClickAction(Integer action)
+        public static void llSetClickAction(int action)
         {
             throw new System.NotImplementedException("placeholder");
         }
-        public static void llSetColor(Vector color, Integer face)
+        public static void llSetColor(Vector color, int face)
         {
             throw new System.NotImplementedException("placeholder");
         }
-        public static void llSetContentType(Key request_id, Integer content_type)
+        public static void llSetContentType(Key request_id, int content_type)
         {
             throw new System.NotImplementedException("placeholder");
         }
-        public static void llSetDamage(Float damage)
+        public static void llSetDamage(float damage)
         {
             throw new System.NotImplementedException("placeholder");
         }
-        public static void llSetForce(Vector force, Integer local)
+        public static void llSetForce(Vector force, int local)
         {
             throw new System.NotImplementedException("placeholder");
         }
-        public static void llSetForceAndTorque(Vector force, Vector torque, Integer local)
+        public static void llSetForceAndTorque(Vector force, Vector torque, int local)
         {
             throw new System.NotImplementedException("placeholder");
         }
-        public static void llSetHoverHeight(Float height, Integer water, Float tau)
+        public static void llSetHoverHeight(float height, int water, float tau)
         {
             throw new System.NotImplementedException("placeholder");
         }
@@ -1555,27 +1555,27 @@ namespace Codegen
         {
             throw new System.NotImplementedException("placeholder");
         }
-        public static void llSetLinkAlpha(Integer link, Float alpha, Integer face)
+        public static void llSetLinkAlpha(int link, float alpha, int face)
         {
             throw new System.NotImplementedException("placeholder");
         }
-        public static void llSetLinkCamera(Integer link, Vector eye, Vector at)
+        public static void llSetLinkCamera(int link, Vector eye, Vector at)
         {
             throw new System.NotImplementedException("placeholder");
         }
-        public static void llSetLinkColor(Integer link, Vector color, Integer face)
+        public static void llSetLinkColor(int link, Vector color, int face)
         {
             throw new System.NotImplementedException("placeholder");
         }
-        public static Integer llSetLinkMedia(Integer link, Integer face, List paramz)
+        public static int llSetLinkMedia(int link, int face, List paramz)
         {
             throw new System.NotImplementedException("placeholder");
         }
-        public static void llSetLinkTexture(Integer link, String texture, Integer face)
+        public static void llSetLinkTexture(int link, string texture, int face)
         {
             throw new System.NotImplementedException("placeholder");
         }
-        public static void llSetLinkTextureAnim(Integer link, Integer mode, Integer face, Integer sizex, Integer sizey, Float start, Float length, Float rate)
+        public static void llSetLinkTextureAnim(int link, int mode, int face, int sizex, int sizey, float start, float length, float rate)
         {
             throw new System.NotImplementedException("placeholder");
         }
@@ -1583,31 +1583,31 @@ namespace Codegen
         {
             throw new System.NotImplementedException("placeholder");
         }
-        public static Integer llSetMemoryLimit(Integer limit)
+        public static int llSetMemoryLimit(int limit)
         {
             throw new System.NotImplementedException("placeholder");
         }
-        public static void llSetObjectDesc(String description)
+        public static void llSetObjectDesc(string description)
         {
             throw new System.NotImplementedException("placeholder");
         }
-        public static void llSetObjectName(String name)
+        public static void llSetObjectName(string name)
         {
             throw new System.NotImplementedException("placeholder");
         }
-        public static void llSetObjectPermMask(Integer mask, Integer value)
+        public static void llSetObjectPermMask(int mask, int value)
         {
             throw new System.NotImplementedException("placeholder");
         }
-        public static void llSetParcelMusicURL(String url)
+        public static void llSetParcelMusicURL(string url)
         {
             throw new System.NotImplementedException("placeholder");
         }
-        public static void llSetPayPrice(Integer price, List quick_pay_buttons)
+        public static void llSetPayPrice(int price, List quick_pay_buttons)
         {
             throw new System.NotImplementedException("placeholder");
         }
-        public static void llSetPhysicsMaterial(Integer mask, Float gravity_multiplier, Float restitution, Float friction, Float density)
+        public static void llSetPhysicsMaterial(int mask, float gravity_multiplier, float restitution, float friction, float density)
         {
             throw new System.NotImplementedException("placeholder");
         }
@@ -1615,19 +1615,19 @@ namespace Codegen
         {
             throw new System.NotImplementedException("placeholder");
         }
-        public static Integer llSetPrimMediaParams(Integer face, List paramz)
+        public static int llSetPrimMediaParams(int face, List paramz)
         {
             throw new System.NotImplementedException("placeholder");
         }
-        public static void llSetPrimURL(String url)
+        public static void llSetPrimURL(string url)
         {
             throw new System.NotImplementedException("placeholder");
         }
-        public static Integer llSetRegionPos(Vector position)
+        public static int llSetRegionPos(Vector position)
         {
             throw new System.NotImplementedException("placeholder");
         }
-        public static void llSetRemoteScriptAccessPin(Integer pin)
+        public static void llSetRemoteScriptAccessPin(int pin)
         {
             throw new System.NotImplementedException("placeholder");
         }
@@ -1639,73 +1639,73 @@ namespace Codegen
         {
             throw new System.NotImplementedException("placeholder");
         }
-        public static void llSetScriptState(String name, Integer running)
+        public static void llSetScriptState(string name, int running)
         {
             throw new System.NotImplementedException("placeholder");
         }
-        public static void llSetSitText(String text)
+        public static void llSetSitText(string text)
         {
             throw new System.NotImplementedException("placeholder");
         }
 
-        public static void llSetStatus(Integer status, Integer value)
+        public static void llSetStatus(int status, int value)
         {
             throw new System.NotImplementedException("placeholder");
         }
-        public static void llSetText(String text, Vector color, Float alpha)
+        public static void llSetText(string text, Vector color, float alpha)
         {
             throw new System.NotImplementedException("placeholder");
         }
-        public static void llSetTexture(String texture, Integer face)
+        public static void llSetTexture(string texture, int face)
         {
             throw new System.NotImplementedException("placeholder");
         }
-        public static void llSetTextureAnim(Integer mode, Integer face, Integer sizex, Integer sizey, Float start, Float length, Float rate)
+        public static void llSetTextureAnim(int mode, int face, int sizex, int sizey, float start, float length, float rate)
         {
             throw new System.NotImplementedException("placeholder");
         }
-        public static void llSetTimerEvent(Float sec)
+        public static void llSetTimerEvent(float sec)
         {
             throw new System.NotImplementedException("placeholder");
         }
-        public static void llSetTorque(Vector torque, Integer local)
+        public static void llSetTorque(Vector torque, int local)
         {
             throw new System.NotImplementedException("placeholder");
         }
-        public static void llSetTouchText(String text)
+        public static void llSetTouchText(string text)
         {
             throw new System.NotImplementedException("placeholder");
         }
-        public static void llSetVehicleFlags(Integer flags)
+        public static void llSetVehicleFlags(int flags)
         {
             throw new System.NotImplementedException("placeholder");
         }
-        public static void llSetVehicleFloatParam(Integer param, Float value)
+        public static void llSetVehiclefloatParam(int param, float value)
         {
             throw new System.NotImplementedException("placeholder");
         }
-        public static void llSetVehicleRotationParam(Integer param, Rotation rot)
+        public static void llSetVehicleRotationParam(int param, Rotation rot)
         {
             throw new System.NotImplementedException("placeholder");
         }
-        public static void llSetVehicleType(Integer type)
+        public static void llSetVehicleType(int type)
         {
             throw new System.NotImplementedException("placeholder");
         }
-        public static void llSetVehicleVectorParam(Integer param, Vector vec)
+        public static void llSetVehicleVectorParam(int param, Vector vec)
         {
             throw new System.NotImplementedException("placeholder");
         }
-        public static void llSetVelocity(Vector force, Integer local)
+        public static void llSetVelocity(Vector force, int local)
         {
             throw new System.NotImplementedException("placeholder");
         }
-        public static String llSHA1String(String src)
+        public static string llSHA1string(string src)
         {
             throw new System.NotImplementedException("placeholder");
         }
     
-        public static Integer llSitOnLink(Key agent_id, Integer link)
+        public static int llSitOnLink(Key agent_id, int link)
         {
             throw new System.NotImplementedException("placeholder");
         }
@@ -1713,16 +1713,16 @@ namespace Codegen
         {
             throw new System.NotImplementedException("placeholder");
         }
-        public static void llSleep(Float sec)
+        public static void llSleep(float sec)
         {
             throw new System.NotImplementedException("placeholder");
         }
  
-        public static void llStartAnimation(String anim)
+        public static void llStartAnimation(string anim)
         {
             throw new System.NotImplementedException("placeholder");
         }
-        public static void llStopAnimation(String anim)
+        public static void llStopAnimation(string anim)
         {
             throw new System.NotImplementedException("placeholder");
         }
@@ -1743,16 +1743,16 @@ namespace Codegen
             throw new System.NotImplementedException("placeholder");
         }
  
-        public static Integer llStringLength(String str)
+        public static int llstringLength(string str)
         {
             throw new System.NotImplementedException("placeholder");
         }
 
-        public static String llStringTrim(String src, Integer type)
+        public static string llstringTrim(string src, int type)
         {
             throw new System.NotImplementedException("placeholder");
         }
-        public static Integer llSubStringIndex(String source, String pattern)
+        public static int llSubstringIndex(string source, string pattern)
         {
             throw new System.NotImplementedException("placeholder");
         }
@@ -1760,23 +1760,23 @@ namespace Codegen
         {
             throw new System.NotImplementedException("placeholder");
         }
-        public static void llTakeControls(Integer controls, Integer accept, Integer pass_on)
+        public static void llTakeControls(int controls, int accept, int pass_on)
         {
             throw new System.NotImplementedException("placeholder");
         }
-        public static Float llTan(Float theta)
+        public static float llTan(float theta)
         {
             throw new System.NotImplementedException("placeholder");
         }
-        public static Integer llTarget(Vector position, Float range)
+        public static int llTarget(Vector position, float range)
         {
             throw new System.NotImplementedException("placeholder");
         }
-        public static void llTargetOmega(Vector axis, Float spinrate, Float gain)
+        public static void llTargetOmega(Vector axis, float spinrate, float gain)
         {
             throw new System.NotImplementedException("placeholder");
         }
-        public static void llTargetRemove(Integer handle)
+        public static void llTargetRemove(int handle)
         {
             throw new System.NotImplementedException("placeholder");
         }
@@ -1785,20 +1785,20 @@ namespace Codegen
 
 
 
-        public static String llToLower(String src)
+        public static string llToLower(string src)
         {
             throw new System.NotImplementedException("placeholder");
         }
-        public static String llToUpper(String src)
+        public static string llToUpper(string src)
         {
             throw new System.NotImplementedException("placeholder");
         }
-        public static Key llTransferLindenDollars(Key destination, Integer amount)
+        public static Key llTransferLindenDollars(Key destination, int amount)
         {
             throw new System.NotImplementedException("placeholder");
         }
 
-        public static String llUnescapeURL(String url)
+        public static string llUnescapeURL(string url)
         {
             throw new System.NotImplementedException("placeholder");
         }
@@ -1810,15 +1810,15 @@ namespace Codegen
         {
             throw new System.NotImplementedException("placeholder");
         }
-        public static Key llUpdateKeyValue(String k, String v, Integer ch3cked, String original_value)
+        public static Key llUpdateKeyValue(string k, string v, int ch3cked, string original_value)
         {
             throw new System.NotImplementedException("placeholder");
         }
-        public static Float llVecDist(Vector vec_a, Vector vec_b)
+        public static float llVecDist(Vector vec_a, Vector vec_b)
         {
             throw new System.NotImplementedException("placeholder");
         }
-        public static Float llVecMag(Vector vec)
+        public static float llVecMag(Vector vec)
         {
             throw new System.NotImplementedException("placeholder");
         }
